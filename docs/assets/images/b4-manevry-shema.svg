@@ -27,7 +27,7 @@
       <rect x="4" y="-16" width="14" height="12" rx="2" fill="#3A3A3A"/>
     </g>
     <path d="M 168 116 L 235 82" stroke="#FF6A00" stroke-width="3" marker-end="url(#arrB4)"/>
-    <text x="180" y="200" text-anchor="middle" font-size="12" fill="#686868">без отката и рывка</text>
+    <text x="180" y="192" text-anchor="middle" font-size="12" fill="#686868">без отката и рывка</text>
     <rect x="20" y="206" width="150" height="20" rx="10" fill="#F0EFEB"/>
     <text x="95" y="220" text-anchor="middle" font-size="10.5" font-weight="700" fill="#686868">без исключений</text>
   </g>
@@ -42,7 +42,7 @@
     <g transform="translate(130,75) rotate(30)">
       <rect x="-19" y="-9" width="38" height="18" rx="4" fill="#181818"/>
     </g>
-    <text x="180" y="200" text-anchor="middle" font-size="12" fill="#686868">одноразовое включение передачи</text>
+    <text x="180" y="192" text-anchor="middle" font-size="12" fill="#686868">одноразовое включение передачи</text>
     <rect x="14" y="206" width="332" height="20" rx="10" fill="#F0EFEB"/>
     <text x="180" y="220" text-anchor="middle" font-size="10" font-weight="700" fill="#686868">не для гусеничных и фрикционных колёсных</text>
   </g>
@@ -59,7 +59,7 @@
     <g transform="translate(100,163) rotate(-14)">
       <rect x="-19" y="-9" width="38" height="18" rx="4" fill="#8C4A00" opacity="0.85"/>
     </g>
-    <text x="180" y="200" text-anchor="middle" font-size="12" fill="#686868">точность манёвра задним ходом</text>
+    <text x="180" y="192" text-anchor="middle" font-size="12" fill="#686868">точность манёвра задним ходом</text>
     <rect x="20" y="206" width="150" height="20" rx="10" fill="#F0EFEB"/>
     <text x="95" y="220" text-anchor="middle" font-size="10.5" font-weight="700" fill="#686868">без исключений</text>
   </g>
@@ -78,7 +78,7 @@
       <circle cx="-30" cy="0" r="2.5" fill="#8C4A00"/>
       <rect x="-52" y="-8" width="20" height="16" rx="3" fill="#B9B6AE"/>
     </g>
-    <text x="180" y="200" text-anchor="middle" font-size="12" fill="#686868">сложнее — прицеп в сцепке</text>
+    <text x="180" y="192" text-anchor="middle" font-size="12" fill="#686868">сложнее — прицеп в сцепке</text>
     <rect x="10" y="206" width="340" height="20" rx="10" fill="#F0EFEB"/>
     <text x="180" y="220" text-anchor="middle" font-size="10" font-weight="700" fill="#686868">не для категорий A I, A IV, F</text>
   </g>
@@ -92,7 +92,7 @@
     </g>
     <path d="M 173 100 L 210 100" stroke="#FF6A00" stroke-width="3" marker-end="url(#arrB4)"/>
     <path d="M 235 76 L 255 76 L 255 124 L 235 124 Z" fill="#B9B6AE" stroke="#686868" stroke-width="1.5"/>
-    <text x="180" y="200" text-anchor="middle" font-size="12" fill="#686868">навеска оборудования на машину</text>
+    <text x="180" y="192" text-anchor="middle" font-size="12" fill="#686868">навеска оборудования на машину</text>
     <rect x="14" y="206" width="332" height="20" rx="10" fill="#F0EFEB"/>
     <text x="180" y="220" text-anchor="middle" font-size="10" font-weight="700" fill="#686868">не для категорий A I и F</text>
   </g>
@@ -107,7 +107,7 @@
     <circle cx="168" cy="100" r="3" fill="#8C4A00"/>
     <path d="M 171 100 L 205 100" stroke="#FF6A00" stroke-width="3" marker-end="url(#arrB4)"/>
     <rect x="228" y="82" width="55" height="36" rx="4" fill="#B9B6AE" stroke="#686868" stroke-width="1.5"/>
-    <text x="180" y="200" text-anchor="middle" font-size="12" fill="#686868">сцепка с прицепным оборудованием</text>
+    <text x="180" y="192" text-anchor="middle" font-size="12" fill="#686868">сцепка с прицепным оборудованием</text>
     <rect x="10" y="206" width="340" height="20" rx="10" fill="#F0EFEB"/>
     <text x="180" y="220" text-anchor="middle" font-size="10" font-weight="700" fill="#686868">не для категорий A I, A IV, F</text>
   </g>

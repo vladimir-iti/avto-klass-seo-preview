@@ -28,44 +28,44 @@
 
     <rect x="90" y="308" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
     <text x="110" y="332" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.5">ВЕДОМСТВО</text>
-    <text x="110" y="358" font-size="16" fill="#201F1C">Госавтоинспекция (ГИБДД)</text>
+    <text x="110" y="358" font-size="15" fill="#201F1C">Госавтоинспекция (ГИБДД)</text>
 
     <rect x="770" y="308" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
     <text x="790" y="332" font-size="13" font-weight="700" fill="#B15A00" letter-spacing="0.5">ВЕДОМСТВО</text>
-    <text x="790" y="358" font-size="16" fill="#201F1C">Органы гостехнадзора региона</text>
+    <text x="790" y="358" font-size="15" fill="#201F1C">Органы гостехнадзора региона</text>
   </g>
 
   <!-- Row 2: Норматив -->
   <g>
     <rect x="90" y="392" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
     <text x="110" y="416" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.5">НОРМАТИВНАЯ БАЗА</text>
-    <text x="110" y="442" font-size="16" fill="#201F1C">Законодательство о БДД</text>
+    <text x="110" y="442" font-size="15" fill="#201F1C">Законодательство о БДД</text>
 
     <rect x="770" y="392" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
     <text x="790" y="416" font-size="13" font-weight="700" fill="#B15A00" letter-spacing="0.5">НОРМАТИВНАЯ БАЗА</text>
-    <text x="790" y="442" font-size="16" fill="#201F1C">297-ФЗ и Правила допуска (ПП № 796)</text>
+    <text x="790" y="442" font-size="15" fill="#201F1C">297-ФЗ и Правила допуска (ПП № 796)</text>
   </g>
 
   <!-- Row 3: Медсправка -->
   <g>
     <rect x="90" y="476" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
     <text x="110" y="500" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.5">МЕДЗАКЛЮЧЕНИЕ</text>
-    <text x="110" y="526" font-size="16" fill="#201F1C">Форма № 003-В/у</text>
+    <text x="110" y="526" font-size="15" fill="#201F1C">Форма № 003-В/у</text>
 
     <rect x="770" y="476" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
     <text x="790" y="500" font-size="13" font-weight="700" fill="#B15A00" letter-spacing="0.5">МЕДЗАКЛЮЧЕНИЕ</text>
-    <text x="790" y="526" font-size="16" fill="#201F1C">Форма № 071/у — другой документ</text>
+    <text x="790" y="526" font-size="15" fill="#201F1C">Форма № 071/у — другой документ</text>
   </g>
 
   <!-- Row 4: Экзамен -->
   <g>
     <rect x="90" y="560" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
     <text x="110" y="584" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.5">ЭКЗАМЕН</text>
-    <text x="110" y="610" font-size="16" fill="#201F1C">Теория + практика по ПДД</text>
+    <text x="110" y="610" font-size="15" fill="#201F1C">Теория + практика по ПДД</text>
 
     <rect x="770" y="560" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
     <text x="790" y="584" font-size="13" font-weight="700" fill="#B15A00" letter-spacing="0.5">ЭКЗАМЕН</text>
-    <text x="790" y="610" font-size="16" fill="#201F1C">Три этапа: 2 теории + практика в 2 этапа</text>
+    <text x="790" y="610" font-size="15" fill="#201F1C">Три этапа: 2 теории + практика в 2 этапа</text>
   </g>
 
   <!-- Merge back at bottom: лишение прав действует на оба -->

@@ -9,9 +9,9 @@
   <text x="600" y="134" text-anchor="middle" font-size="15" font-weight="700" fill="#F3F1EC">Результат экзамена</text>
 
   <!-- fan-out lines -->
-  <path d="M 600 156 L 600 180 L 225 180 L 225 206" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
-  <path d="M 600 156 L 600 206" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
-  <path d="M 600 156 L 600 180 L 975 180 L 975 206" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+  <path d="M 600 156 L 600 180 M 225 180 L 805 180 M 225 180 L 225 206 M 515 180 L 515 206 M 805 180 L 805 206" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+  
+  
 
   <!-- Column 1: Теория -->
   <rect x="90" y="206" width="270" height="84" rx="10" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>
@@ -49,9 +49,9 @@
   <text x="805" y="343" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">пересдача ≥ 7 дней</text>
 
   <!-- merge practice columns into shared counter -->
-  <path d="M 515 358 L 515 400 L 660 400" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
-  <path d="M 805 358 L 805 400 L 660 400" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
-  <path d="M 660 400 L 660 386" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+  <path d="M 515 358 L 515 400" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+  <path d="M 805 358 L 805 400" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+  
 
   <rect x="405" y="400" width="510" height="60" rx="10" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5" stroke-dasharray="4 4"/>
   <text x="660" y="425" text-anchor="middle" font-size="13" fill="#686868">общий счётчик на оба этапа практики —</text>

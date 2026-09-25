@@ -11,7 +11,7 @@
 
   <path d="M 320 210 L 320 244" stroke="#201F1C" stroke-width="3" marker-end="url(#arrowDark)"/>
 
-  <rect x="80" y="244" width="480" height="110" rx="12" fill="#FFFFFF" stroke="#201F1C" stroke-width="2"/>
+  <rect x="80" y="244" width="480" height="124" rx="12" fill="#FFFFFF" stroke="#201F1C" stroke-width="2"/>
   <text x="320" y="276" text-anchor="middle" font-size="15" font-weight="700" fill="#201F1C">Отвечает на вопрос:</text>
   <text x="320" y="304" text-anchor="middle" font-size="19" font-weight="800" fill="#201F1C">«Какую машину можно вести»</text>
   <text x="320" y="330" text-anchor="middle" font-size="13.5" fill="#686868">определяется мощностью, типом хода</text>
@@ -24,7 +24,7 @@
 
   <path d="M 880 210 L 880 244" stroke="#B15A00" stroke-width="3" marker-end="url(#arrowOrange)"/>
 
-  <rect x="640" y="244" width="480" height="110" rx="12" fill="#FFFFFF" stroke="#FF6A00" stroke-width="2"/>
+  <rect x="640" y="244" width="480" height="124" rx="12" fill="#FFFFFF" stroke="#FF6A00" stroke-width="2"/>
   <text x="880" y="276" text-anchor="middle" font-size="15" font-weight="700" fill="#B15A00">Отвечает на вопрос:</text>
   <text x="880" y="304" text-anchor="middle" font-size="19" font-weight="800" fill="#B15A00">«Какие работы можно выполнять»</text>
   <text x="880" y="330" text-anchor="middle" font-size="13.5" fill="#686868">сверх собственно управления машиной —</text>

@@ -59,11 +59,11 @@
   <text x="600" y="472" text-anchor="middle" font-size="14.5" font-weight="700" fill="#8C4A00">или ч. 3 ст. 12.27 КоАП (опьянение, отказ от</text>
   <text x="600" y="494" text-anchor="middle" font-size="14.5" font-weight="700" fill="#8C4A00">освидетельствования, оставление места ДТП)?</text>
 
-  <text x="530" y="552" text-anchor="middle" font-size="14" font-weight="700" fill="#686868">нет</text>
-  <text x="785" y="552" text-anchor="middle" font-size="14" font-weight="700" fill="#B15A00">да</text>
+  <text x="470" y="552" text-anchor="middle" font-size="14" font-weight="700" fill="#686868">нет</text>
+  <text x="760" y="552" text-anchor="middle" font-size="14" font-weight="700" fill="#B15A00">да</text>
 
-  <path d="M 600 514 L 600 560 L 460 560 L 460 592" fill="none" stroke="#C9C7C0" stroke-width="2.5" marker-end="url(#arrowC4)"/>
-  <path d="M 870 514 L 870 560 L 700 560 L 700 592" fill="none" stroke="#C9C7C0" stroke-width="2.5" marker-end="url(#arrowC4)"/>
+  <path d="M 520 514 L 520 560 L 420 560 L 420 592" fill="none" stroke="#C9C7C0" stroke-width="2.5" marker-end="url(#arrowC4)"/>
+  <path d="M 680 514 L 680 560 L 840 560 L 840 592" fill="none" stroke="#C9C7C0" stroke-width="2.5" marker-end="url(#arrowC4)"/>
 
   <!-- extra requirement -->
   <rect x="680" y="592" width="320" height="96" rx="12" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>

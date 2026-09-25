@@ -34,9 +34,9 @@
   </g>
 
   <!-- leader lines from highlighted field to three cards -->
-  <path d="M 480 340 L 560 236" fill="none" stroke="#C9C7C0" stroke-width="2"/>
-  <path d="M 480 364 L 560 388" fill="none" stroke="#C9C7C0" stroke-width="2"/>
-  <path d="M 480 388 L 560 540" fill="none" stroke="#C9C7C0" stroke-width="2"/>
+  <path d="M 380 404 C 470 404, 470 178, 560 178" fill="none" stroke="#C9C7C0" stroke-width="2"/>
+  <path d="M 380 424 C 470 424, 470 330, 560 330" fill="none" stroke="#C9C7C0" stroke-width="2"/>
+  <path d="M 380 444 C 470 444, 470 482, 560 482" fill="none" stroke="#C9C7C0" stroke-width="2"/>
 
   <!-- card 1: разрешительная -->
   <rect x="560" y="120" width="550" height="116" rx="12" fill="#E9F4EE" stroke="#2E7D4F" stroke-width="2"/>

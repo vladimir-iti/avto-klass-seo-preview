@@ -33,10 +33,10 @@
   <circle cx="832" cy="152" r="20" fill="none" stroke="#2E7D4F" stroke-width="2.5"/>
   <text x="832" y="158" text-anchor="middle" font-size="16" font-weight="800" fill="#2E7D4F">3</text>
   <text x="862" y="158" font-size="13" font-weight="700" fill="#1E5E3B" letter-spacing="0.3">КАТЕГОРИЯ И УПРАВЛЯЮЩИЙ</text>
-  <text x="822" y="196" font-size="16.5" font-weight="700" fill="#1E5E3B">Убедитесь, что за</text>
-  <text x="822" y="220" font-size="14.5" fill="#1E5E3B">рычагами — человек с нужной</text>
-  <text x="822" y="242" font-size="14.5" fill="#1E5E3B">категорией, независимо от</text>
-  <text x="822" y="264" font-size="14.5" fill="#1E5E3B">того, чья это машина и земля</text>
+  <text x="822" y="196" font-size="16.5" font-weight="700" fill="#1E5E3B">Кто за рычагами:</text>
+  <text x="822" y="220" font-size="14.5" fill="#1E5E3B">человек с нужной категорией,</text>
+  <text x="822" y="242" font-size="14.5" fill="#1E5E3B">независимо от того, чья это</text>
+  <text x="822" y="264" font-size="14.5" fill="#1E5E3B">машина и земля</text>
 
   <defs>
     <marker id="arrowD9b" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
