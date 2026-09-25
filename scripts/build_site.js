@@ -86,6 +86,7 @@ function rewriteLinks(html, slugs) {
   return html
     .replace(/href="\/blog\/([a-z0-9-]+)\/"/g, (m, slug) =>
       slugs.has(slug) ? `href="../${slug}/index.html"` : `href="${PRODUCTION}/blog/${slug}/"`)
+    .replace(/href="\/images\/blog\/([^"]+)"/g, 'href="../../assets/images/$1"')
     .replace(/href="(\/[^"]*)"/g, (m, p) => `href="${PRODUCTION}${p}" target="_blank" rel="noopener"`)
     .replace(/src="\/images\/blog\/([^"]+)"/g, 'src="../../assets/images/$1"');
 }
@@ -139,7 +140,12 @@ function main() {
       const name = src.replace(/^\/images\/blog\//, '');
       images.push(name);
       usedImages.add(name);
-      return `<figure><img src="${src}" alt="${esc(alt)}" loading="lazy" decoding="async"></figure>`;
+      const img = `<img src="${src}" alt="${esc(alt)}" loading="lazy" decoding="async">`;
+      if (!name.endsWith('.svg')) return `<figure>${img}</figure>`;
+      // Схемы открываются крупно по клику — тем же скриптом, что на сайте.
+      return `<figure><a class="scheme-zoom" href="${src}" target="_blank" rel="noopener" ` +
+        `aria-label="Открыть схему крупно: ${esc(alt)}">${img}` +
+        '<span class="scheme-zoom__hint" aria-hidden="true">Увеличить</span></a></figure>';
     });
     html = rewriteLinks(html, slugs);
     const { html: withIds, toc } = makeToc(html);
@@ -164,7 +170,7 @@ function main() {
       description: meta.description,
       depth: 2,
       content,
-    }));
+    }).replace('</body>', '<script src="../../assets/blog.js" defer></script>\n</body>'));
   }
 
   // --- главная хаба ---
@@ -219,6 +225,7 @@ function main() {
   // --- статика ---
   for (const name of usedImages) fs.copyFileSync(path.join(IMAGES, name), path.join(OUT, 'assets', 'images', name));
   fs.copyFileSync(path.join(__dirname, 'style.css'), path.join(OUT, 'assets', 'style.css'));
+  fs.copyFileSync(path.join(ROOT, 'site', 'src', 'js', 'blog.js'), path.join(OUT, 'assets', 'blog.js'));
   fs.writeFileSync(path.join(OUT, '.nojekyll'), '');
   fs.writeFileSync(path.join(OUT, '404.html'), page({
     title: 'Страница не найдена — Авто-Класс (предпросмотр)',

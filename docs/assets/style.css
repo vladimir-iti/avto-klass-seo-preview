@@ -282,3 +282,38 @@ td { font-variant-numeric: tabular-nums; }
   .wrap { padding: 0 16px; }
   .quicknav-list { gap: 6px; }
 }
+
+/* --- схемы: увеличение по клику (assets/blog.js — тот же скрипт, что на сайте) --- */
+figure { margin: 1.6em 0; }
+figure img { max-width: 100%; height: auto; }
+.scheme-zoom { position: relative; display: block; cursor: zoom-in; }
+.scheme-zoom__hint {
+  position: absolute; right: 10px; bottom: 10px;
+  padding: 5px 12px; border-radius: 999px;
+  background: rgba(24, 24, 24, .78); color: #fff;
+  font-size: 13px; font-weight: 600; line-height: 1.2;
+  pointer-events: none;
+}
+.scheme-zoom:hover .scheme-zoom__hint { background: var(--accent); }
+
+body.lightbox-open { overflow: hidden; }
+.lightbox { position: fixed; inset: 0; z-index: 300; display: flex; flex-direction: column; background: #181818; }
+.lightbox[hidden] { display: none; }
+.lightbox__bar { flex: none; display: flex; justify-content: flex-end; gap: 8px; padding: 12px 16px; }
+.lightbox__btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 40px; padding: 0 16px;
+  border: 1px solid rgba(255, 255, 255, .25); border-radius: 999px;
+  background: rgba(255, 255, 255, .08); color: #fff;
+  font: inherit; font-size: 15px; font-weight: 600; cursor: pointer;
+}
+.lightbox__btn:hover { background: rgba(255, 255, 255, .18); }
+.lightbox__close { width: 40px; padding: 0; }
+.lightbox__stage {
+  flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center;
+  padding: 0 16px 16px; overflow: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain;
+}
+.lightbox__img { display: block; max-width: 100%; max-height: 100%; width: auto; height: auto; border-radius: 12px; background: #fff; cursor: zoom-in; }
+.lightbox.is-zoomed .lightbox__stage { display: block; }
+.lightbox.is-zoomed .lightbox__img { width: 1200px; max-width: none; max-height: none; margin: 0 auto; cursor: zoom-out; }
+@media (min-width: 901px) { .lightbox.is-zoomed .lightbox__img { width: 1800px; } }
