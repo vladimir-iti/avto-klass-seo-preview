@@ -1,4 +1,4 @@
-<svg viewBox="0 0 1200 780" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема: четыре даты-отсечки старых документов и общий исход — замена без экзаменов">
+<svg viewBox="0 0 1200 780" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', Roboto, Arial, 'Liberation Sans', sans-serif" role="img" aria-label="Схема: четыре даты-отсечки старых документов и общий исход — замена без экзаменов">
   <rect width="1200" height="780" fill="#F7F7F5"/>
 
   <text x="600" y="46" text-anchor="middle" font-size="27" font-weight="800" fill="#181818">Четыре старых документа — один исход</text>
