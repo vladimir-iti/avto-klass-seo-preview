@@ -1,0 +1,58 @@
+<svg viewBox="0 0 1200 820" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема: как выбрать место сдачи экзамена на права тракториста в Пермском крае">
+  <rect width="1200" height="820" fill="#F7F7F5"/>
+
+  <text x="600" y="48" text-anchor="middle" font-size="28" font-weight="800" fill="#181818">Куда подавать документы на экзамен</text>
+  <text x="600" y="76" text-anchor="middle" font-size="16" fill="#686868">Пункт 12 Правил допуска (ПП № 796) — один принцип на весь край</text>
+
+  <!-- Decision diamond -->
+  <polygon points="600,112 760,196 600,280 440,196" fill="#181818"/>
+  <text x="600" y="184" text-anchor="middle" font-size="14" font-weight="700" fill="#F3F1EC">Место учёбы и место</text>
+  <text x="600" y="204" text-anchor="middle" font-size="14" font-weight="700" fill="#F3F1EC">регистрации совпадают?</text>
+
+  <!-- Left branch: совпадают -->
+  <path d="M 440 196 L 260 196 L 260 320" fill="none" stroke="#2E7D4F" stroke-width="2.5" marker-end="url(#arrowD8)"/>
+  <text x="330" y="188" text-anchor="middle" font-size="13.5" font-weight="700" fill="#2E7D4F">да — совпадают</text>
+
+  <rect x="80" y="320" width="360" height="170" rx="14" fill="#E9F4EE" stroke="#2E7D4F" stroke-width="2"/>
+  <text x="260" y="356" text-anchor="middle" font-size="16.5" font-weight="800" fill="#1E5E3B">Один орган гостехнадзора</text>
+  <text x="260" y="384" text-anchor="middle" font-size="13.5" fill="#1E5E3B">Оба варианта нормы указывают</text>
+  <text x="260" y="404" text-anchor="middle" font-size="13.5" fill="#1E5E3B">на одно и то же ведомство —</text>
+  <text x="260" y="424" text-anchor="middle" font-size="13.5" fill="#1E5E3B">вопрос выбора не встаёт</text>
+  <text x="260" y="466" text-anchor="middle" font-size="12.5" fill="#5C8C71">типичный случай для большинства кандидатов</text>
+
+  <!-- Right branch: не совпадают -->
+  <path d="M 760 196 L 940 196 L 940 320" fill="none" stroke="#B15A00" stroke-width="2.5" marker-end="url(#arrowD8)"/>
+  <text x="870" y="188" text-anchor="middle" font-size="13.5" font-weight="700" fill="#B15A00">нет — разные округа</text>
+
+  <rect x="760" y="320" width="360" height="170" rx="14" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>
+  <text x="940" y="356" text-anchor="middle" font-size="16.5" font-weight="800" fill="#8C4A00">Выбор: учёба или прописка</text>
+  <text x="940" y="384" text-anchor="middle" font-size="13.5" fill="#8C4A00">По месту жительства (пребывания)</text>
+  <text x="940" y="404" text-anchor="middle" font-size="13.5" fill="#8C4A00">либо по месту учебной организации —</text>
+  <text x="940" y="424" text-anchor="middle" font-size="13.5" fill="#8C4A00">оба варианта равноправны</text>
+  <text x="940" y="466" text-anchor="middle" font-size="12.5" fill="#B37A3D">экзамен, как правило, совмещён с итоговой аттестацией</text>
+
+  <defs>
+    <marker id="arrowD8" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#201F1C"/>
+    </marker>
+  </defs>
+
+  <!-- Divider -->
+  <line x1="80" y1="560" x2="1120" y2="560" stroke="#C9C7C0" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="600" y="600" text-anchor="middle" font-size="14" font-weight="700" fill="#686868">Отдельно от общего правила — два случая со своим порядком</text>
+
+  <!-- Exception cards -->
+  <rect x="80" y="628" width="500" height="150" rx="14" fill="#FFFFFF" stroke="#C9C7C0" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="330" y="660" text-anchor="middle" font-size="13" font-weight="700" fill="#8C8A82" letter-spacing="0.3">ИСКЛЮЧИТЕЛЬНЫЙ СЛУЧАЙ</text>
+  <text x="330" y="688" text-anchor="middle" font-size="15.5" font-weight="700" fill="#201F1C">Беженцы, переселенцы, моряки,</text>
+  <text x="330" y="710" text-anchor="middle" font-size="15.5" font-weight="700" fill="#201F1C">длительная командировка и т. п.</text>
+  <text x="330" y="742" text-anchor="middle" font-size="13" fill="#686868">Решение — за главным государственным</text>
+  <text x="330" y="762" text-anchor="middle" font-size="13" fill="#686868">инженером-инспектором, не гарантировано нормой</text>
+
+  <rect x="620" y="628" width="500" height="150" rx="14" fill="#FFFFFF" stroke="#C9C7C0" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="870" y="660" text-anchor="middle" font-size="13" font-weight="700" fill="#8C8A82" letter-spacing="0.3">ОТДЕЛЬНЫЙ ПОРЯДОК</text>
+  <text x="870" y="688" text-anchor="middle" font-size="15.5" font-weight="700" fill="#201F1C">Военнослужащий срочной</text>
+  <text x="870" y="710" text-anchor="middle" font-size="15.5" font-weight="700" fill="#201F1C">службы</text>
+  <text x="870" y="742" text-anchor="middle" font-size="13" fill="#686868">Приём экзаменов — по месту</text>
+  <text x="870" y="762" text-anchor="middle" font-size="13" fill="#686868">дислокации воинской части, напрямую по норме</text>
+</svg>

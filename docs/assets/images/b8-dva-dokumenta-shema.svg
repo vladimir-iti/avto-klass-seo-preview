@@ -1,0 +1,70 @@
+<svg viewBox="0 0 1200 660" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема: медицинское заключение по форме 071/у и справка по форме 003-В/у — разные документы для разных систем допуска">
+  <rect width="1200" height="660" fill="#F7F7F5"/>
+
+  <text x="600" y="46" text-anchor="middle" font-size="28" font-weight="800" fill="#181818">Два документа, а не один</text>
+  <text x="600" y="74" text-anchor="middle" font-size="16" fill="#686868">Один не заменяет другой — разные приказы, разные системы допуска</text>
+
+  <!-- Left document card: 071/у -->
+  <g transform="translate(120,120)">
+    <path d="M 0,0 L 380,0 L 380,400 L 60,400 L 0,340 Z" fill="#FFFFFF" stroke="#181818" stroke-width="2"/>
+    <path d="M 0,0 L 0,340 L 60,400 L 60,60 Z" fill="#F0EFEB" stroke="#181818" stroke-width="2"/>
+
+    <rect x="0" y="0" width="380" height="72" fill="#181818"/>
+    <text x="200" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#B9B6AE" letter-spacing="0.5">МЕДИЦИНСКОЕ ЗАКЛЮЧЕНИЕ</text>
+    <text x="200" y="56" text-anchor="middle" font-size="22" font-weight="800" fill="#F3F1EC">Форма № 071/у</text>
+
+    <text x="90" y="110" font-size="13" fill="#686868">Утверждена</text>
+    <text x="90" y="130" font-size="14.5" font-weight="700" fill="#201F1C">приказом Минздрава № 395н</text>
+    <text x="90" y="148" font-size="13" fill="#686868">от 09.06.2022, действует до 01.03.2028</text>
+
+    <line x1="90" y1="168" x2="360" y2="168" stroke="#E5E5E1" stroke-width="1.5"/>
+
+    <text x="90" y="196" font-size="13" fill="#686868">Для кого</text>
+    <text x="90" y="216" font-size="14.5" font-weight="700" fill="#201F1C">трактористы, машинисты,</text>
+    <text x="90" y="234" font-size="14.5" font-weight="700" fill="#201F1C">водители самоходных машин</text>
+
+    <line x1="90" y1="254" x2="360" y2="254" stroke="#E5E5E1" stroke-width="1.5"/>
+
+    <text x="90" y="282" font-size="13" fill="#686868">Кто спрашивает</text>
+    <text x="90" y="304" font-size="16" font-weight="800" fill="#B15A00">Гостехнадзор</text>
+
+    <rect x="90" y="330" width="270" height="46" rx="10" fill="#FDF0E4" stroke="#B15A00" stroke-width="1.5"/>
+    <text x="225" y="358" text-anchor="middle" font-size="13" font-weight="700" fill="#8C4A00">к экзамену на трактор</text>
+  </g>
+
+  <!-- center divider -->
+  <circle cx="600" cy="320" r="26" fill="#F7F7F5" stroke="#C9C7C0" stroke-width="2"/>
+  <text x="600" y="328" text-anchor="middle" font-size="18" font-weight="800" fill="#686868">≠</text>
+  <text x="600" y="392" text-anchor="middle" font-size="12.5" font-weight="700" fill="#686868">не взаимо-</text>
+  <text x="600" y="408" text-anchor="middle" font-size="12.5" font-weight="700" fill="#686868">заменяемы</text>
+
+  <!-- Right document card: 003-В/у -->
+  <g transform="translate(700,120)">
+    <path d="M 0,0 L 380,0 L 380,340 L 320,400 L 0,400 Z" fill="#FFFFFF" stroke="#181818" stroke-width="2"/>
+    <path d="M 380,0 L 380,340 L 320,400 L 320,60 Z" fill="#F0EFEB" stroke="#181818" stroke-width="2"/>
+
+    <rect x="0" y="0" width="380" height="72" fill="#FF6A00"/>
+    <text x="190" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#FFF3E8" letter-spacing="0.5">МЕДИЦИНСКОЕ ЗАКЛЮЧЕНИЕ</text>
+    <text x="190" y="56" text-anchor="middle" font-size="22" font-weight="800" fill="#FFFFFF">Форма № 003-В/у</text>
+
+    <text x="30" y="110" font-size="13" fill="#686868">Утверждена</text>
+    <text x="30" y="130" font-size="14.5" font-weight="700" fill="#201F1C">приказом Минздрава № 1092н</text>
+    <text x="30" y="148" font-size="13" fill="#686868">от 24.11.2021, действует с 01.03.2022</text>
+
+    <line x1="30" y1="168" x2="300" y2="168" stroke="#E5E5E1" stroke-width="1.5"/>
+
+    <text x="30" y="196" font-size="13" fill="#686868">Для кого</text>
+    <text x="30" y="216" font-size="14.5" font-weight="700" fill="#201F1C">водители и кандидаты в водители</text>
+    <text x="30" y="234" font-size="14.5" font-weight="700" fill="#201F1C">автомобильного транспорта</text>
+
+    <line x1="30" y1="254" x2="300" y2="254" stroke="#E5E5E1" stroke-width="1.5"/>
+
+    <text x="30" y="282" font-size="13" fill="#686868">Кто спрашивает</text>
+    <text x="30" y="304" font-size="16" font-weight="800" fill="#181818">ГИБДД</text>
+
+    <rect x="30" y="330" width="270" height="46" rx="10" fill="#F0EFEB" stroke="#181818" stroke-width="1.5"/>
+    <text x="165" y="358" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">к экзамену на автомобиль</text>
+  </g>
+
+  <text x="600" y="600" text-anchor="middle" font-size="13.5" fill="#686868">Схематичное сопоставление — не копия бланка и не содержит чьих-либо персональных данных</text>
+</svg>

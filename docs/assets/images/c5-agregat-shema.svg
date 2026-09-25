@@ -1,0 +1,98 @@
+<svg viewBox="0 0 1200 660" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема агрегатирования самоходной машины с прицепом и с навесной машиной">
+  <rect width="1200" height="660" fill="#F7F7F5"/>
+
+  <text x="600" y="46" text-anchor="middle" font-size="28" font-weight="800" fill="#181818">Два разных манёвра «в агрегате»</text>
+  <text x="600" y="74" text-anchor="middle" font-size="16" fill="#686868">Оба входят в экзамен основной категории — отдельной «прицепной» категории в тракторных правах нет</text>
+
+  <!-- Panel A: с прицепом -->
+  <g transform="translate(60,110)">
+    <rect x="0" y="0" width="510" height="420" rx="14" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+    <rect x="0" y="0" width="510" height="56" rx="14" fill="#181818"/>
+    <rect x="0" y="28" width="510" height="28" fill="#181818"/>
+    <text x="255" y="35" text-anchor="middle" font-size="15" font-weight="800" fill="#F3F1EC">В АГРЕГАТЕ С ПРИЦЕПОМ</text>
+
+    <!-- icon: tractor -->
+    <g transform="translate(70,150)">
+      <rect x="0" y="10" width="110" height="55" rx="8" fill="#3C3C3C"/>
+      <rect x="14" y="-38" width="60" height="52" rx="6" fill="#3C3C3C"/>
+      <rect x="24" y="-28" width="40" height="30" rx="3" fill="#DCE7E1"/>
+      <circle cx="24" cy="70" r="24" fill="#232323"/>
+      <circle cx="24" cy="70" r="9" fill="#8C8C8C"/>
+      <circle cx="96" cy="70" r="24" fill="#232323"/>
+      <circle cx="96" cy="70" r="9" fill="#8C8C8C"/>
+    </g>
+
+    <!-- hitch -->
+    <line x1="255" y1="235" x2="300" y2="235" stroke="#686868" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="300" cy="235" r="7" fill="#686868"/>
+
+    <!-- trailer -->
+    <g transform="translate(320,175)">
+      <rect x="0" y="0" width="130" height="60" rx="6" fill="#B15A00"/>
+      <circle cx="26" cy="70" r="20" fill="#232323"/>
+      <circle cx="26" cy="70" r="7" fill="#8C8C8C"/>
+      <circle cx="104" cy="70" r="20" fill="#232323"/>
+      <circle cx="104" cy="70" r="7" fill="#8C8C8C"/>
+    </g>
+
+    <!-- leader labels -->
+    <line x1="115" y1="150" x2="115" y2="120" stroke="#C9C7C0" stroke-width="1.5"/>
+    <text x="115" y="110" text-anchor="middle" font-size="12.5" font-weight="700" fill="#201F1C">самоходная машина</text>
+
+    <line x1="300" y1="228" x2="300" y2="120" stroke="#C9C7C0" stroke-width="1.5"/>
+    <text x="300" y="110" text-anchor="middle" font-size="12.5" font-weight="700" fill="#201F1C">сцепное устройство</text>
+
+    <line x1="450" y1="175" x2="450" y2="120" stroke="#C9C7C0" stroke-width="1.5"/>
+    <text x="450" y="110" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8C4A00">прицеп</text>
+
+    <line x1="30" y1="380" x2="480" y2="380" stroke="#E5E5E1" stroke-width="1.5"/>
+    <text x="255" y="360" text-anchor="middle" font-size="12" fill="#9A9890">агрегатирование с прицепом + постановка в бокс задним ходом</text>
+    <text x="255" y="404" text-anchor="middle" font-size="12.5" fill="#686868">не сдают категории A I, A IV, F</text>
+  </g>
+
+  <!-- Panel B: с навесной машиной -->
+  <g transform="translate(630,110)">
+    <rect x="0" y="0" width="510" height="420" rx="14" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+    <rect x="0" y="0" width="510" height="56" rx="14" fill="#181818"/>
+    <rect x="0" y="28" width="510" height="28" fill="#181818"/>
+    <text x="255" y="35" text-anchor="middle" font-size="15" font-weight="800" fill="#F3F1EC">В АГРЕГАТЕ С НАВЕСНОЙ МАШИНОЙ</text>
+
+    <!-- icon: tractor -->
+    <g transform="translate(80,150)">
+      <rect x="0" y="10" width="110" height="55" rx="8" fill="#3C3C3C"/>
+      <rect x="14" y="-38" width="60" height="52" rx="6" fill="#3C3C3C"/>
+      <rect x="24" y="-28" width="40" height="30" rx="3" fill="#DCE7E1"/>
+      <circle cx="24" cy="70" r="24" fill="#232323"/>
+      <circle cx="24" cy="70" r="9" fill="#8C8C8C"/>
+      <circle cx="96" cy="70" r="24" fill="#232323"/>
+      <circle cx="96" cy="70" r="9" fill="#8C8C8C"/>
+    </g>
+
+    <!-- naveska (3-point hitch) -->
+    <path d="M 270 165 L 300 160 M 270 210 L 300 200 M 270 235 L 300 220" stroke="#686868" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+    <!-- implement -->
+    <g transform="translate(300,150)">
+      <path d="M 0,90 L 20,20 L 130,10 L 130,90 Z" fill="#2E7D4F"/>
+      <rect x="10" y="90" width="10" height="26" fill="#3C3C3C"/>
+      <rect x="60" y="90" width="10" height="26" fill="#3C3C3C"/>
+      <rect x="110" y="90" width="10" height="26" fill="#3C3C3C"/>
+    </g>
+
+    <!-- leader labels -->
+    <line x1="125" y1="150" x2="125" y2="120" stroke="#C9C7C0" stroke-width="1.5"/>
+    <text x="125" y="110" text-anchor="middle" font-size="12.5" font-weight="700" fill="#201F1C">самоходная машина</text>
+
+    <line x1="285" y1="195" x2="285" y2="120" stroke="#C9C7C0" stroke-width="1.5"/>
+    <text x="285" y="110" text-anchor="middle" font-size="12.5" font-weight="700" fill="#201F1C">навеска</text>
+
+    <line x1="420" y1="175" x2="420" y2="120" stroke="#C9C7C0" stroke-width="1.5"/>
+    <text x="420" y="110" text-anchor="middle" font-size="12.5" font-weight="700" fill="#1E5E3B">навесная машина / орудие</text>
+
+    <line x1="30" y1="380" x2="480" y2="380" stroke="#E5E5E1" stroke-width="1.5"/>
+    <text x="255" y="360" text-anchor="middle" font-size="12" fill="#9A9890">агрегатирование с навесной машиной</text>
+    <text x="255" y="404" text-anchor="middle" font-size="12.5" fill="#686868">не сдают категории A I, F</text>
+  </g>
+
+  <text x="600" y="586" text-anchor="middle" font-size="13.5" fill="#686868">Схематичные силуэты, не чертёж конкретной модели — манёвры и исключения по п. 30 Правил допуска (в редакции ПП № 969)</text>
+</svg>

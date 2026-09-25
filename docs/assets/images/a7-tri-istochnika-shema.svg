@@ -1,0 +1,92 @@
+<svg viewBox="0 0 1200 940" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема: три источника и четыре документа тракториста — кто выдаёт и даёт ли документ право управления">
+  <rect width="1200" height="940" fill="#F7F7F5"/>
+
+  <text x="600" y="46" text-anchor="middle" font-size="27" font-weight="800" fill="#181818">Три источника — четыре документа</text>
+  <text x="600" y="74" text-anchor="middle" font-size="15.5" fill="#686868">Право управления подтверждают только два документа из четырёх — оба выдаёт гостехнадзор</text>
+
+  <defs>
+    <marker id="arrowA7orange" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#B15A00"/>
+    </marker>
+    <marker id="arrowA7grey" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#8A8A84"/>
+    </marker>
+  </defs>
+
+  <!-- column captions -->
+  <text x="220" y="92" text-anchor="middle" font-size="12.5" font-weight="700" fill="#9A9890" letter-spacing="0.5">КТО ВЫДАЁТ</text>
+  <text x="840" y="92" text-anchor="middle" font-size="12.5" font-weight="700" fill="#9A9890" letter-spacing="0.5">ДОКУМЕНТ И ЧТО ОН ДАЁТ</text>
+
+  <!-- Source 1: Учебная организация -->
+  <rect x="40" y="140" width="380" height="90" rx="12" fill="#181818"/>
+  <text x="230" y="178" text-anchor="middle" font-size="16.5" font-weight="800" fill="#F3F1EC">Учебная организация</text>
+  <text x="230" y="202" text-anchor="middle" font-size="12.5" fill="#B9B6AE">по итогам обучения и квалэкзамена</text>
+
+  <!-- Source 2: Орган гостехнадзора -->
+  <rect x="40" y="306" width="380" height="304" rx="12" fill="#181818"/>
+  <text x="230" y="346" text-anchor="middle" font-size="16.5" font-weight="800" fill="#F3F1EC">Орган гостехнадзора</text>
+  <text x="230" y="370" text-anchor="middle" font-size="12.5" fill="#B9B6AE">после собственных экзаменов</text>
+  <text x="230" y="388" text-anchor="middle" font-size="12.5" fill="#B9B6AE">или направления на практику</text>
+
+  <!-- Source 3: Сам кандидат -->
+  <rect x="40" y="728" width="380" height="90" rx="12" fill="#181818"/>
+  <text x="230" y="766" text-anchor="middle" font-size="16.5" font-weight="800" fill="#F3F1EC">Сам кандидат</text>
+  <text x="230" y="790" text-anchor="middle" font-size="12.5" fill="#B9B6AE">заполняет перед экзаменом</text>
+
+  <!-- Connectors -->
+  <path d="M 420,185 C 470,185 470,185 520,185" fill="none" stroke="#8A8A84" stroke-width="2.5" marker-end="url(#arrowA7grey)"/>
+  <path d="M 420,400 C 470,400 470,381 520,381" fill="none" stroke="#B15A00" stroke-width="2.5" marker-end="url(#arrowA7orange)"/>
+  <path d="M 420,516 C 470,516 470,577 520,577" fill="none" stroke="#B15A00" stroke-width="2.5" marker-end="url(#arrowA7orange)"/>
+  <path d="M 420,773 C 470,773 470,773 520,773" fill="none" stroke="#8A8A84" stroke-width="2.5" marker-end="url(#arrowA7grey)"/>
+
+  <!-- Doc 1: Свидетельство о профессии рабочего -->
+  <g>
+    <rect x="520" y="100" width="640" height="170" rx="14" fill="#FFFFFF" stroke="#181818" stroke-width="1.5"/>
+    <path d="M 520,114 A 14,14 0 0 1 534,100 L 1146,100 A 14,14 0 0 1 1160,114 L 1160,156 L 520,156 Z" fill="#F0EFEB"/>
+    <text x="546" y="130" font-size="16" font-weight="800" fill="#181818">Свидетельство о профессии рабочего</text>
+    <text x="1134" y="148" text-anchor="end" font-size="11.5" font-weight="700" fill="#9A9890">п. 7 Правил допуска</text>
+    <text x="546" y="184" font-size="13.5" fill="#4A4A46">Подтверждает прохождение обучения и присвоенную</text>
+    <text x="546" y="204" font-size="13.5" fill="#4A4A46">квалификацию — основание для отметки в удостоверении</text>
+    <rect x="546" y="220" width="270" height="30" rx="8" fill="#F0EFEB" stroke="#8A8A84" stroke-width="1.5"/>
+    <text x="681" y="240" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4A4A46">Не даёт права управления</text>
+  </g>
+
+  <!-- Doc 2: Удостоверение тракториста-машиниста -->
+  <g>
+    <rect x="520" y="296" width="640" height="170" rx="14" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>
+    <path d="M 520,310 A 14,14 0 0 1 534,296 L 1146,296 A 14,14 0 0 1 1160,310 L 1160,352 L 520,352 Z" fill="#FF6A00"/>
+    <text x="546" y="326" font-size="16" font-weight="800" fill="#FFFFFF">Удостоверение тракториста-машиниста</text>
+    <text x="1134" y="344" text-anchor="end" font-size="11.5" font-weight="700" fill="#FFE3C7">п. 10 Правил допуска</text>
+    <text x="546" y="380" font-size="13.5" fill="#8C4A00">Подтверждает право управления самоходными</text>
+    <text x="546" y="400" font-size="13.5" fill="#8C4A00">машинами указанных в нём категорий — 10 лет</text>
+    <rect x="546" y="416" width="230" height="30" rx="8" fill="#FF6A00"/>
+    <text x="661" y="436" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">Даёт право управления</text>
+  </g>
+
+  <!-- Doc 3: Временное удостоверение -->
+  <g>
+    <rect x="520" y="492" width="640" height="170" rx="14" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>
+    <path d="M 520,506 A 14,14 0 0 1 534,492 L 1146,492 A 14,14 0 0 1 1160,506 L 1160,548 L 520,548 Z" fill="#FF6A00"/>
+    <text x="546" y="522" font-size="16" font-weight="800" fill="#FFFFFF">Временное удостоверение</text>
+    <text x="1134" y="540" text-anchor="end" font-size="11.5" font-weight="700" fill="#FFE3C7">п. 9 Правил допуска</text>
+    <text x="546" y="576" font-size="13.5" fill="#8C4A00">Для направленных на практику — часть экзаменов</text>
+    <text x="546" y="596" font-size="13.5" fill="#8C4A00">сдана, до 2 месяцев, дальше меняют без пересдачи</text>
+    <rect x="546" y="612" width="290" height="30" rx="8" fill="#FF6A00"/>
+    <text x="691" y="632" text-anchor="middle" font-size="12.5" font-weight="700" fill="#FFFFFF">Даёт право на срок практики</text>
+  </g>
+
+  <!-- Doc 4: Индивидуальная карточка -->
+  <g>
+    <rect x="520" y="688" width="640" height="170" rx="14" fill="#FFFFFF" stroke="#181818" stroke-width="1.5"/>
+    <path d="M 520,702 A 14,14 0 0 1 534,688 L 1146,688 A 14,14 0 0 1 1160,702 L 1160,744 L 520,744 Z" fill="#F0EFEB"/>
+    <text x="546" y="718" font-size="16" font-weight="800" fill="#181818">Индивидуальная карточка</text>
+    <text x="1134" y="736" text-anchor="end" font-size="11.5" font-weight="700" fill="#9A9890">п. 17 Правил допуска</text>
+    <text x="546" y="772" font-size="13.5" fill="#4A4A46">Учётный бланк процедуры экзамена; понадобится</text>
+    <text x="546" y="792" font-size="13.5" fill="#4A4A46">снова примерно через 10 лет — при замене удостоверения</text>
+    <rect x="546" y="808" width="270" height="30" rx="8" fill="#F0EFEB" stroke="#8A8A84" stroke-width="1.5"/>
+    <text x="681" y="828" text-anchor="middle" font-size="12.5" font-weight="700" fill="#4A4A46">Не даёт права управления</text>
+  </g>
+
+  <text x="600" y="900" text-anchor="middle" font-size="13.5" fill="#686868">Схематичное обобщение по Правилам допуска (постановление Правительства РФ от 12.07.1999 № 796) —</text>
+  <text x="600" y="922" text-anchor="middle" font-size="13.5" fill="#686868">не копия бланков, не образец документа и не содержит персональных данных</text>
+</svg>

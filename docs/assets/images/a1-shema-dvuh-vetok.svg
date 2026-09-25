@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема: два независимых пути допуска к управлению — ГИБДД и гостехнадзор">
+  <rect width="1200" height="760" fill="#F7F7F5"/>
+
+  <!-- Title -->
+  <text x="600" y="52" text-anchor="middle" font-size="30" font-weight="800" fill="#181818">Два независимых пути допуска к управлению</text>
+  <text x="600" y="82" text-anchor="middle" font-size="17" fill="#686868">Буквы категорий совпадают — системы, которые их выдают, нет</text>
+
+  <!-- Top shared node -->
+  <rect x="440" y="112" width="320" height="56" rx="10" fill="#181818"/>
+  <text x="600" y="146" text-anchor="middle" font-size="18" font-weight="700" fill="#F3F1EC">Управление техникой</text>
+
+  <!-- Connectors from top to two columns -->
+  <path d="M 600 168 L 600 196 L 260 196 L 260 224" fill="none" stroke="#C9C7C0" stroke-width="3"/>
+  <path d="M 600 168 L 600 196 L 940 196 L 940 224" fill="none" stroke="#C9C7C0" stroke-width="3"/>
+
+  <!-- Column headers -->
+  <rect x="90" y="224" width="340" height="52" rx="10" fill="#FFFFFF" stroke="#201F1C" stroke-width="2"/>
+  <text x="260" y="257" text-anchor="middle" font-size="19" font-weight="800" fill="#201F1C">Автомобиль · ГИБДД</text>
+
+  <rect x="770" y="224" width="340" height="52" rx="10" fill="#FF6A00"/>
+  <text x="940" y="256" text-anchor="middle" font-size="16.5" font-weight="800" fill="#FFFFFF">Самоходная техника · Гостехнадзор</text>
+
+  <!-- Row template function values -->
+  <!-- Row 1: Ведомство -->
+  <g>
+    <line x1="260" y1="276" x2="260" y2="308" stroke="#C9C7C0" stroke-width="2"/>
+    <line x1="940" y1="276" x2="940" y2="308" stroke="#C9C7C0" stroke-width="2"/>
+
+    <rect x="90" y="308" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
+    <text x="110" y="332" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.5">ВЕДОМСТВО</text>
+    <text x="110" y="358" font-size="16" fill="#201F1C">Госавтоинспекция (ГИБДД)</text>
+
+    <rect x="770" y="308" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
+    <text x="790" y="332" font-size="13" font-weight="700" fill="#B15A00" letter-spacing="0.5">ВЕДОМСТВО</text>
+    <text x="790" y="358" font-size="16" fill="#201F1C">Органы гостехнадзора региона</text>
+  </g>
+
+  <!-- Row 2: Норматив -->
+  <g>
+    <rect x="90" y="392" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
+    <text x="110" y="416" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.5">НОРМАТИВНАЯ БАЗА</text>
+    <text x="110" y="442" font-size="16" fill="#201F1C">Законодательство о БДД</text>
+
+    <rect x="770" y="392" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
+    <text x="790" y="416" font-size="13" font-weight="700" fill="#B15A00" letter-spacing="0.5">НОРМАТИВНАЯ БАЗА</text>
+    <text x="790" y="442" font-size="16" fill="#201F1C">297-ФЗ и Правила допуска (ПП № 796)</text>
+  </g>
+
+  <!-- Row 3: Медсправка -->
+  <g>
+    <rect x="90" y="476" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
+    <text x="110" y="500" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.5">МЕДЗАКЛЮЧЕНИЕ</text>
+    <text x="110" y="526" font-size="16" fill="#201F1C">Форма № 003-В/у</text>
+
+    <rect x="770" y="476" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
+    <text x="790" y="500" font-size="13" font-weight="700" fill="#B15A00" letter-spacing="0.5">МЕДЗАКЛЮЧЕНИЕ</text>
+    <text x="790" y="526" font-size="16" fill="#201F1C">Форма № 071/у — другой документ</text>
+  </g>
+
+  <!-- Row 4: Экзамен -->
+  <g>
+    <rect x="90" y="560" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
+    <text x="110" y="584" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.5">ЭКЗАМЕН</text>
+    <text x="110" y="610" font-size="16" fill="#201F1C">Теория + практика по ПДД</text>
+
+    <rect x="770" y="560" width="340" height="72" rx="8" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
+    <text x="790" y="584" font-size="13" font-weight="700" fill="#B15A00" letter-spacing="0.5">ЭКЗАМЕН</text>
+    <text x="790" y="610" font-size="16" fill="#201F1C">Три этапа: 2 теории + практика в 2 этапа</text>
+  </g>
+
+  <!-- Merge back at bottom: лишение прав действует на оба -->
+  <path d="M 260 632 L 260 664 L 600 664" fill="none" stroke="#C43B2B" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M 940 632 L 940 664 L 600 664" fill="none" stroke="#C43B2B" stroke-width="3" stroke-dasharray="6 5"/>
+  <path d="M 600 664 L 600 690" fill="none" stroke="#C43B2B" stroke-width="3" stroke-dasharray="6 5"/>
+
+  <rect x="380" y="690" width="440" height="52" rx="10" fill="#FBEAE7" stroke="#C43B2B" stroke-width="1.5"/>
+  <text x="600" y="722" text-anchor="middle" font-size="15" fill="#8C2A1E" font-weight="700">Точка пересечения: лишение права управления ТС блокирует оба документа</text>
+</svg>

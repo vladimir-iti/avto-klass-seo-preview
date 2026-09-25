@@ -1,0 +1,82 @@
+<svg viewBox="0 0 1200 820" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема: что делать в зависимости от того, что именно не сдано на экзамене в гостехнадзоре">
+  <rect width="1200" height="820" fill="#F7F7F5"/>
+
+  <text x="600" y="46" text-anchor="middle" font-size="28" font-weight="800" fill="#181818">Что именно не сдано?</text>
+  <text x="600" y="74" text-anchor="middle" font-size="16" fill="#686868">Три разных сценария — один общий предел на пересдачи практики (ПП № 796)</text>
+
+  <!-- top node -->
+  <rect x="460" y="100" width="280" height="56" rx="10" fill="#181818"/>
+  <text x="600" y="134" text-anchor="middle" font-size="15" font-weight="700" fill="#F3F1EC">Результат экзамена</text>
+
+  <!-- fan-out lines -->
+  <path d="M 600 156 L 600 180 L 225 180 L 225 206" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+  <path d="M 600 156 L 600 206" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+  <path d="M 600 156 L 600 180 L 975 180 L 975 206" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+
+  <!-- Column 1: Теория -->
+  <rect x="90" y="206" width="270" height="84" rx="10" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>
+  <text x="225" y="238" text-anchor="middle" font-size="15" font-weight="800" fill="#8C4A00">Не сдана теория</text>
+  <text x="225" y="260" text-anchor="middle" font-size="12.5" fill="#8C4A00">любая из двух частей (п. 19)</text>
+  <text x="225" y="278" text-anchor="middle" font-size="12.5" fill="#8C4A00">к практике не допускают</text>
+
+  <path d="M 225 290 L 225 318" stroke="#201F1C" stroke-width="2.5" marker-end="url(#arrowB6)"/>
+  <rect x="145" y="318" width="160" height="40" rx="20" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+  <text x="225" y="343" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">пересдача ≥ 7 дней</text>
+
+  <path d="M 225 358 L 225 386" stroke="#201F1C" stroke-width="2.5" marker-end="url(#arrowB6)"/>
+  <rect x="105" y="386" width="240" height="66" rx="10" fill="#E9F4EE" stroke="#2E7D4F" stroke-width="2"/>
+  <text x="225" y="412" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1E5E3B">лимита пересдач нет</text>
+  <text x="225" y="432" text-anchor="middle" font-size="12" fill="#1E5E3B">сколько нужно, столько и можно</text>
+
+  <!-- Column 2: Практика этап 1 -->
+  <rect x="380" y="206" width="270" height="84" rx="10" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>
+  <text x="515" y="230" text-anchor="middle" font-size="15" font-weight="800" fill="#8C4A00">Практика: этап 1</text>
+  <text x="515" y="250" text-anchor="middle" font-size="12.5" fill="#8C4A00">площадка / трактородром</text>
+  <text x="515" y="268" text-anchor="middle" font-size="12.5" fill="#8C4A00">не сдан (п. 21)</text>
+
+  <path d="M 515 290 L 515 318" stroke="#201F1C" stroke-width="2.5" marker-end="url(#arrowB6)"/>
+  <rect x="435" y="318" width="160" height="40" rx="20" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+  <text x="515" y="343" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">пересдача ≥ 7 дней</text>
+
+  <!-- Column 3: Практика этап 2 -->
+  <rect x="670" y="206" width="270" height="84" rx="10" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>
+  <text x="805" y="230" text-anchor="middle" font-size="15" font-weight="800" fill="#8C4A00">Практика: этап 2</text>
+  <text x="805" y="250" text-anchor="middle" font-size="12.5" fill="#8C4A00">маршрут, реальные условия</text>
+  <text x="805" y="268" text-anchor="middle" font-size="12.5" fill="#8C4A00">не сдан (п. 21, 22²)</text>
+
+  <path d="M 805 290 L 805 318" stroke="#201F1C" stroke-width="2.5" marker-end="url(#arrowB6)"/>
+  <rect x="725" y="318" width="160" height="40" rx="20" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+  <text x="805" y="343" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">пересдача ≥ 7 дней</text>
+
+  <!-- merge practice columns into shared counter -->
+  <path d="M 515 358 L 515 400 L 660 400" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+  <path d="M 805 358 L 805 400 L 660 400" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+  <path d="M 660 400 L 660 386" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+
+  <rect x="405" y="400" width="510" height="52" rx="10" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="660" y="431" text-anchor="middle" font-size="13" fill="#686868">общий счётчик на оба этапа практики — не «попытки этапа 1» и «попытки этапа 2» отдельно</text>
+
+  <path d="M 660 452 L 660 480" stroke="#201F1C" stroke-width="2.5" marker-end="url(#arrowB6)"/>
+
+  <rect x="435" y="480" width="450" height="72" rx="10" fill="#FBEAE7" stroke="#C43B2B" stroke-width="2"/>
+  <text x="660" y="508" text-anchor="middle" font-size="15" font-weight="800" fill="#8C2A1E">3 практики подряд не сданы</text>
+  <text x="660" y="530" text-anchor="middle" font-size="12.5" fill="#8C2A1E">четвёртой попытки без условия не будет (п. 21)</text>
+
+  <path d="M 660 552 L 660 580" stroke="#201F1C" stroke-width="2.5" marker-end="url(#arrowB6)"/>
+
+  <rect x="360" y="580" width="600" height="66" rx="10" fill="#181818"/>
+  <text x="660" y="608" text-anchor="middle" font-size="15" font-weight="800" fill="#F3F1EC">Повторное обучение практическим навыкам</text>
+  <text x="660" y="630" text-anchor="middle" font-size="12.5" fill="#B9B6AE">+ справка от организации, где оно пройдено</text>
+
+  <defs>
+    <marker id="arrowB6" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#201F1C"/>
+    </marker>
+  </defs>
+
+  <!-- separate note: 3-month theory validity -->
+  <rect x="90" y="690" width="1020" height="92" rx="12" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
+  <text x="120" y="720" font-size="14.5" font-weight="700" fill="#201F1C">Отдельно: сданная теория действует только 3 месяца (п. 20)</text>
+  <text x="120" y="744" font-size="13.5" fill="#686868">Это не тот же счётчик, что 7-дневный интервал выше, — а срок, за который нужно успеть сдать практику.</text>
+  <text x="120" y="764" font-size="13.5" fill="#686868">Что происходит при просрочке, норма прямо не описывает — вывод автора статьи, не цитата нормы (см. текст статьи).</text>
+</svg>

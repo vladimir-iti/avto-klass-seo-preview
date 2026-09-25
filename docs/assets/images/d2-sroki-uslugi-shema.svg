@@ -1,0 +1,54 @@
+<svg viewBox="0 0 1200 560" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема сроков оказания услуги по приёму экзаменов на права тракториста">
+  <rect width="1200" height="560" fill="#F7F7F5"/>
+
+  <text x="600" y="48" text-anchor="middle" font-size="28" font-weight="800" fill="#181818">Сроки, которые обязан соблюдать орган</text>
+  <text x="600" y="76" text-anchor="middle" font-size="16" fill="#686868">Пункт 45² Правил допуска (ПП № 796) — три срока одной процедуры</text>
+
+  <!-- Stage 1 -->
+  <rect x="60" y="140" width="260" height="112" rx="14" fill="#181818"/>
+  <text x="190" y="180" text-anchor="middle" font-size="13" font-weight="700" fill="#B9B6AE" letter-spacing="0.4">СТАРТ</text>
+  <text x="190" y="208" text-anchor="middle" font-size="17.5" font-weight="700" fill="#F3F1EC">Заявление подано</text>
+  <text x="190" y="232" text-anchor="middle" font-size="12.5" fill="#9A9890">лично, через МФЦ или электронно</text>
+
+  <!-- Arrow 1 with duration pill -->
+  <path d="M 320 196 L 470 196" stroke="#201F1C" stroke-width="2.5" marker-end="url(#arrowD2)"/>
+  <rect x="330" y="160" width="130" height="28" rx="14" fill="#FDF0E4"/>
+  <text x="395" y="179" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8C4A00">≤ 10 раб. дней</text>
+
+  <!-- Stage 2 -->
+  <rect x="470" y="140" width="260" height="112" rx="14" fill="#FFFFFF" stroke="#201F1C" stroke-width="2"/>
+  <text x="600" y="180" text-anchor="middle" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.4">РЕЗУЛЬТАТ</text>
+  <text x="600" y="206" text-anchor="middle" font-size="16.5" font-weight="700" fill="#201F1C">Экзамен сдан</text>
+  <text x="600" y="228" text-anchor="middle" font-size="16.5" font-weight="700" fill="#201F1C">или получен отказ</text>
+
+  <!-- Arrow 2 with duration pill -->
+  <path d="M 730 196 L 880 196" stroke="#201F1C" stroke-width="2.5" marker-end="url(#arrowD2)"/>
+  <rect x="740" y="160" width="130" height="28" rx="14" fill="#FDF0E4"/>
+  <text x="805" y="179" text-anchor="middle" font-size="12.5" font-weight="700" fill="#8C4A00">≤ 2 раб. дня</text>
+
+  <!-- Stage 3 -->
+  <rect x="880" y="140" width="260" height="112" rx="14" fill="#E9F4EE" stroke="#2E7D4F" stroke-width="2"/>
+  <text x="1010" y="180" text-anchor="middle" font-size="13" font-weight="700" fill="#1E5E3B" letter-spacing="0.4">ФИНИШ</text>
+  <text x="1010" y="206" text-anchor="middle" font-size="17.5" font-weight="700" fill="#1E5E3B">Документы</text>
+  <text x="1010" y="228" text-anchor="middle" font-size="17.5" font-weight="700" fill="#1E5E3B">выданы</text>
+
+  <!-- Branch down to suspension -->
+  <path d="M 600 252 L 600 300" fill="none" stroke="#8C2A1E" stroke-width="2.5" stroke-dasharray="6 5"/>
+  <text x="620" y="284" font-size="12.5" font-weight="700" fill="#8C2A1E">если основание есть</text>
+
+  <rect x="400" y="300" width="400" height="120" rx="14" fill="#FBEAE7" stroke="#8C2A1E" stroke-width="2"/>
+  <text x="600" y="332" text-anchor="middle" font-size="13" font-weight="700" fill="#8C2A1E" letter-spacing="0.4">ОТДЕЛЬНАЯ ВЕТКА — ПРИОСТАНОВЛЕНИЕ</text>
+  <text x="600" y="360" text-anchor="middle" font-size="16.5" font-weight="800" fill="#8C2A1E">До 30 календарных дней</text>
+  <text x="600" y="386" text-anchor="middle" font-size="13" fill="#8C2A1E">не сдан экзамен или не подтверждена подлинность</text>
+  <text x="600" y="404" text-anchor="middle" font-size="13" fill="#8C2A1E">ранее выданного удостоверения — исчерпывающий список оснований</text>
+
+  <defs>
+    <marker id="arrowD2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#201F1C"/>
+    </marker>
+  </defs>
+
+  <rect x="130" y="456" width="940" height="72" rx="12" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="600" y="486" text-anchor="middle" font-size="13.5" fill="#686868">10 рабочих дней — это весь путь заявления до результата, включая назначение даты и места экзамена.</text>
+  <text x="600" y="508" text-anchor="middle" font-size="13.5" fill="#686868">2 рабочих дня — отдельный, более короткий срок именно на оформление документов после успешной сдачи.</text>
+</svg>

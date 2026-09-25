@@ -1,0 +1,97 @@
+<svg viewBox="0 0 1200 780" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема: четыре типичные ситуации и нужно ли в них удостоверение тракториста в Пермском крае">
+  <rect width="1200" height="780" fill="#F7F7F5"/>
+
+  <text x="600" y="48" text-anchor="middle" font-size="28" font-weight="800" fill="#181818">Четыре ситуации — один критерий</text>
+  <text x="600" y="76" text-anchor="middle" font-size="16" fill="#686868">Решает не место использования техники, а сама машина и то, кто ею управляет</text>
+
+  <!-- Card 1: Минитрактор на участке -->
+  <g>
+    <rect x="60" y="112" width="530" height="290" rx="16" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+    <circle cx="118" cy="168" r="30" fill="#F0EFEB"/>
+    <g transform="translate(98,150)" stroke="#3C3C3C" stroke-width="3.5" fill="none" stroke-linecap="round">
+      <rect x="2" y="10" width="26" height="14" rx="3" fill="#3C3C3C" stroke="none"/>
+      <rect x="8" y="0" width="14" height="12" rx="2" fill="#3C3C3C" stroke="none"/>
+      <circle cx="8" cy="26" r="6" fill="#8C8C8C" stroke="none"/>
+      <circle cx="24" cy="26" r="6" fill="#8C8C8C" stroke="none"/>
+    </g>
+    <text x="164" y="152" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.3">СЦЕНАРИЙ 1</text>
+    <text x="164" y="178" font-size="18.5" font-weight="800" fill="#201F1C">Минитрактор на своём участке</text>
+
+    <text x="90" y="238" font-size="14.5" fill="#4A4A46">Есть сиденье или кабина — оператор</text>
+    <text x="90" y="260" font-size="14.5" fill="#4A4A46">перемещается вместе с машиной. При обычной</text>
+    <text x="90" y="282" font-size="14.5" fill="#4A4A46">мощности это почти всегда «самоходная машина»,</text>
+    <text x="90" y="304" font-size="14.5" fill="#4A4A46">которая подлежит регистрации.</text>
+    <text x="90" y="332" font-size="13" fill="#9A9890">Своя земля вопрос не снимает — важна сама машина</text>
+
+    <rect x="90" y="352" width="130" height="34" rx="17" fill="#E9F4EE"/>
+    <text x="155" y="374" text-anchor="middle" font-size="14" font-weight="800" fill="#1E5E3B">Нужно</text>
+  </g>
+
+  <!-- Card 2: Снегоход -->
+  <g>
+    <rect x="610" y="112" width="530" height="290" rx="16" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+    <circle cx="668" cy="168" r="30" fill="#F0EFEB"/>
+    <g transform="translate(648,152)" stroke="#3C3C3C" stroke-width="3.5" fill="none" stroke-linecap="round">
+      <path d="M0,24 L10,8 L30,8 L40,24" fill="none"/>
+      <path d="M-4,26 L44,26" />
+      <path d="M4,26 L-2,34" />
+      <path d="M36,26 L42,34" />
+    </g>
+    <text x="714" y="152" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.3">СЦЕНАРИЙ 2</text>
+    <text x="714" y="178" font-size="18.5" font-weight="800" fill="#201F1C">Снегоход зимой за городом</text>
+
+    <text x="640" y="238" font-size="14.5" fill="#4A4A46">Категория A I — внедорожные</text>
+    <text x="640" y="260" font-size="14.5" fill="#4A4A46">мототранспортные средства. Требование</text>
+    <text x="640" y="282" font-size="14.5" fill="#4A4A46">не привязано к месту катания: в лесу, в поле</text>
+    <text x="640" y="304" font-size="14.5" fill="#4A4A46">или за городом действует тот же пункт 3.</text>
+    <text x="640" y="332" font-size="13" fill="#9A9890">«Не для дорог общего пользования» — признак категории</text>
+
+    <rect x="640" y="352" width="130" height="34" rx="17" fill="#E9F4EE"/>
+    <text x="705" y="374" text-anchor="middle" font-size="14" font-weight="800" fill="#1E5E3B">Нужно</text>
+  </g>
+
+  <!-- Card 3: ЛПХ -->
+  <g>
+    <rect x="60" y="426" width="530" height="290" rx="16" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+    <circle cx="118" cy="482" r="30" fill="#F0EFEB"/>
+    <g transform="translate(98,466)" stroke="#3C3C3C" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2,16 L16,2 L30,16" />
+      <path d="M6,16 L6,32 L26,32 L26,16" />
+    </g>
+    <text x="164" y="466" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.3">СЦЕНАРИЙ 3</text>
+    <text x="164" y="492" font-size="18.5" font-weight="800" fill="#201F1C">Техника в личном хозяйстве</text>
+
+    <text x="90" y="552" font-size="14.5" fill="#4A4A46">ЛПХ само по себе не создаёт ни</text>
+    <text x="90" y="574" font-size="14.5" fill="#4A4A46">требования, ни исключения. Мотоблок обычно</text>
+    <text x="90" y="596" font-size="14.5" fill="#4A4A46">не регистрируется, минитрактор или самоходная</text>
+    <text x="90" y="618" font-size="14.5" fill="#4A4A46">косилка — как правило, да.</text>
+    <text x="90" y="646" font-size="13" fill="#9A9890">Тот же критерий, что и в сценарии 1, — по конкретной машине</text>
+
+    <rect x="90" y="666" width="150" height="34" rx="17" fill="#FDF0E4"/>
+    <text x="165" y="688" text-anchor="middle" font-size="14" font-weight="800" fill="#8C4A00">Зависит</text>
+  </g>
+
+  <!-- Card 4: подряд -->
+  <g>
+    <rect x="610" y="426" width="530" height="290" rx="16" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+    <circle cx="668" cy="482" r="30" fill="#F0EFEB"/>
+    <g transform="translate(648,466)" stroke="#3C3C3C" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2,18 L14,18 L20,12 L26,18 L38,18" />
+      <path d="M14,18 L14,10" />
+      <path d="M26,18 L26,10" />
+    </g>
+    <text x="714" y="466" font-size="13" font-weight="700" fill="#686868" letter-spacing="0.3">СЦЕНАРИЙ 4</text>
+    <text x="714" y="492" font-size="18.5" font-weight="800" fill="#201F1C">Работа на чужой технике</text>
+
+    <text x="640" y="552" font-size="14.5" fill="#4A4A46">Требование удостоверения относится к тому,</text>
+    <text x="640" y="574" font-size="14.5" fill="#4A4A46">кто управляет машиной, а не к тому, кому</text>
+    <text x="640" y="596" font-size="14.5" fill="#4A4A46">она принадлежит. Право собственности на</text>
+    <text x="640" y="618" font-size="14.5" fill="#4A4A46">машину или землю значения не имеет.</text>
+    <text x="640" y="646" font-size="13" fill="#9A9890">Ответственность может лечь и на допустившего к работе</text>
+
+    <rect x="640" y="666" width="130" height="34" rx="17" fill="#E9F4EE"/>
+    <text x="705" y="688" text-anchor="middle" font-size="14" font-weight="800" fill="#1E5E3B">Нужно</text>
+  </g>
+
+  <text x="600" y="756" text-anchor="middle" font-size="13.5" fill="#9A9890">Решает регистрация машины (297-ФЗ, ПП № 1507) и то, кто сидит за рычагами (ПП № 796, п. 3) — не забор участка</text>
+</svg>

@@ -1,0 +1,47 @@
+<svg viewBox="0 0 900 900" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема: как проверить право на управление погрузчиком — категория плюс квалификация">
+  <rect width="900" height="900" fill="#F7F7F5"/>
+
+  <text x="450" y="46" text-anchor="middle" font-size="26" font-weight="800" fill="#181818">Проверка в два шага</text>
+  <text x="450" y="74" text-anchor="middle" font-size="15" fill="#686868">Категория закрывает саму машину, квалификация — специализацию сверх неё</text>
+
+  <!-- Step 1 -->
+  <rect x="80" y="112" width="740" height="140" rx="14" fill="#181818"/>
+  <rect x="112" y="140" width="34" height="34" rx="8" fill="none" stroke="#B9B6AE" stroke-width="2.5"/>
+  <path d="M 120 158 L 128 166 L 140 148" fill="none" stroke="#B9B6AE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="164" y="152" font-size="13" font-weight="700" fill="#B9B6AE" letter-spacing="0.4">ШАГ 1 — ВСЕГДА</text>
+  <text x="164" y="182" font-size="18" font-weight="700" fill="#F3F1EC">Категория соответствует мощности</text>
+  <text x="164" y="208" font-size="18" font-weight="700" fill="#F3F1EC">и типу хода именно этой машины</text>
+  <text x="164" y="234" font-size="13.5" fill="#9A9890">Категория — это допуск к базовой машине, а не к тому, что на неё навешено</text>
+
+  <path d="M 450 252 L 450 286" stroke="#201F1C" stroke-width="2.5" marker-end="url(#arrowC3)"/>
+  <text x="480" y="274" font-size="13" fill="#8C4A00" font-weight="700">если работа требует специализации</text>
+
+  <!-- Step 2 -->
+  <rect x="80" y="296" width="740" height="140" rx="14" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>
+  <rect x="112" y="324" width="34" height="34" rx="8" fill="none" stroke="#B15A00" stroke-width="2.5"/>
+  <path d="M 120 342 L 128 350 L 140 332" fill="none" stroke="#B15A00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="164" y="336" font-size="13" font-weight="700" fill="#8C4A00" letter-spacing="0.4">ШАГ 2 — ПРИ НЕОБХОДИМОСТИ</text>
+  <text x="164" y="366" font-size="18" font-weight="700" fill="#8C4A00">Дополнительная запись о квалификации</text>
+  <text x="164" y="392" font-size="18" font-weight="700" fill="#8C4A00">в графе «Особые отметки»</text>
+  <text x="164" y="418" font-size="13.5" fill="#B37A3D">Основание — документ о квалификации, а не устная договорённость с работодателем</text>
+
+  <path d="M 450 436 L 450 470" stroke="#201F1C" stroke-width="2.5" marker-end="url(#arrowC3)"/>
+
+  <!-- Result -->
+  <rect x="130" y="480" width="640" height="96" rx="14" fill="#E9F4EE" stroke="#2E7D4F" stroke-width="2"/>
+  <text x="450" y="518" text-anchor="middle" font-size="17" font-weight="800" fill="#1E5E3B">Категория + при необходимости квалификация</text>
+  <text x="450" y="546" text-anchor="middle" font-size="17" font-weight="800" fill="#1E5E3B">= подтверждённое право на эту работу</text>
+
+  <defs>
+    <marker id="arrowC3" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#201F1C"/>
+    </marker>
+  </defs>
+
+  <!-- separate note -->
+  <rect x="80" y="616" width="740" height="120" rx="12" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="110" y="648" font-size="14.5" font-weight="700" fill="#201F1C">Отдельно, при приёме на работу — срок действия удостоверения</text>
+  <text x="110" y="674" font-size="13.5" fill="#686868">Категория и квалификация могут быть в порядке, а само удостоверение — просрочено:</text>
+  <text x="110" y="696" font-size="13.5" fill="#686868">оно выдаётся на 10 лет, и это отдельная проверка, не часть двух шагов выше.</text>
+  <text x="110" y="718" font-size="13.5" fill="#686868">Одной записи о квалификации без открытой категории для управления машиной недостаточно.</text>
+</svg>

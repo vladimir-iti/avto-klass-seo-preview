@@ -1,0 +1,98 @@
+<svg viewBox="0 0 1000 820" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема: как определить, нужны ли права на мотоблок или минитрактор">
+  <rect width="1000" height="820" fill="#F7F7F5"/>
+
+  <text x="500" y="46" text-anchor="middle" font-size="27" font-weight="800" fill="#181818">Мотоблок или минитрактор?</text>
+  <text x="500" y="74" text-anchor="middle" font-size="15.5" fill="#686868">Порог по двигателю одинаковый — решает конструкция, а не название техники</text>
+
+  <!-- Q1 -->
+  <rect x="230" y="106" width="540" height="84" rx="12" fill="#181818"/>
+  <text x="500" y="136" text-anchor="middle" font-size="13.5" font-weight="700" fill="#B9B6AE">ВОПРОС 1</text>
+  <text x="500" y="162" text-anchor="middle" font-size="16.5" font-weight="700" fill="#F3F1EC">Двигатель ДВС &gt; 50 см³ или электро &gt; 4 кВт?</text>
+
+  <text x="150" y="230" text-anchor="middle" font-size="14" font-weight="700" fill="#2E7D4F">нет</text>
+  <path d="M 230 148 L 150 148 L 150 250" fill="none" stroke="#2E7D4F" stroke-width="2.5" marker-end="url(#arrowC6)"/>
+
+  <text x="620" y="222" text-anchor="middle" font-size="14" font-weight="700" fill="#B15A00">да</text>
+  <path d="M 500 190 L 500 250" fill="none" stroke="#B15A00" stroke-width="2.5" marker-end="url(#arrowC6)"/>
+
+  <!-- early exit pod -->
+  <rect x="20" y="250" width="260" height="130" rx="12" fill="#E9F4EE" stroke="#2E7D4F" stroke-width="2"/>
+  <text x="150" y="284" text-anchor="middle" font-size="15" font-weight="800" fill="#1E5E3B">Не самоходная машина</text>
+  <text x="150" y="308" text-anchor="middle" font-size="12.5" fill="#1E5E3B">по определению 297-ФЗ —</text>
+  <text x="150" y="326" text-anchor="middle" font-size="12.5" fill="#1E5E3B">права тракториста</text>
+  <text x="150" y="344" text-anchor="middle" font-size="12.5" fill="#1E5E3B">не нужны</text>
+  <text x="150" y="366" text-anchor="middle" font-size="11.5" fill="#5C8C71">схема дальше не идёт</text>
+
+  <!-- Q2 -->
+  <rect x="330" y="250" width="340" height="110" rx="12" fill="#181818"/>
+  <text x="500" y="278" text-anchor="middle" font-size="13.5" font-weight="700" fill="#B9B6AE">ВОПРОС 2</text>
+  <text x="500" y="304" text-anchor="middle" font-size="15" font-weight="700" fill="#F3F1EC">Есть сиденье, и оператор</text>
+  <text x="500" y="326" text-anchor="middle" font-size="15" font-weight="700" fill="#F3F1EC">перемещается вместе с машиной?</text>
+  <text x="500" y="348" text-anchor="middle" font-size="11.5" fill="#9A9890">а не идёт рядом, держась за рукояти</text>
+
+  <text x="290" y="400" text-anchor="middle" font-size="14" font-weight="700" fill="#686868">нет</text>
+  <path d="M 380 360 L 380 392 L 260 392 L 260 418" fill="none" stroke="#686868" stroke-width="2.5" marker-end="url(#arrowC6)"/>
+
+  <text x="710" y="400" text-anchor="middle" font-size="14" font-weight="700" fill="#B15A00">да</text>
+  <path d="M 620 360 L 620 392 L 740 392 L 740 418" fill="none" stroke="#B15A00" stroke-width="2.5" marker-end="url(#arrowC6)"/>
+
+  <!-- Leaf A: мотоблок -->
+  <g>
+    <rect x="20" y="428" width="440" height="230" rx="14" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+    <!-- icon: motoblok -->
+    <g transform="translate(78,470)">
+      <line x1="10" y1="-30" x2="60" y2="-52" stroke="#3C3C3C" stroke-width="6" stroke-linecap="round"/>
+      <line x1="10" y1="-10" x2="60" y2="-52" stroke="#3C3C3C" stroke-width="6" stroke-linecap="round"/>
+      <rect x="55" y="-40" width="55" height="45" rx="8" fill="#3C3C3C"/>
+      <circle cx="82" cy="35" r="26" fill="#232323"/>
+      <circle cx="82" cy="35" r="10" fill="#8C8C8C"/>
+      <!-- walking operator, stick figure, no seat -->
+      <circle cx="-30" cy="-58" r="12" fill="#8C8C8C"/>
+      <line x1="-30" y1="-46" x2="-30" y2="10" stroke="#8C8C8C" stroke-width="6" stroke-linecap="round"/>
+      <line x1="-30" y1="-20" x2="5" y2="-32" stroke="#8C8C8C" stroke-width="6" stroke-linecap="round"/>
+      <line x1="-30" y1="10" x2="-52" y2="55" stroke="#8C8C8C" stroke-width="6" stroke-linecap="round"/>
+      <line x1="-30" y1="10" x2="-8" y2="55" stroke="#8C8C8C" stroke-width="6" stroke-linecap="round"/>
+    </g>
+    <text x="310" y="470" text-anchor="middle" font-size="16.5" font-weight="800" fill="#201F1C">Мотоблок</text>
+    <text x="310" y="496" text-anchor="middle" font-size="12.5" fill="#4A4A46">Две опорные точки, без сиденья —</text>
+    <text x="310" y="514" text-anchor="middle" font-size="12.5" fill="#4A4A46">оператор идёт рядом, держась за рукояти</text>
+    <text x="240" y="554" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1E5E3B">Как правило, под «самоходную</text>
+    <text x="240" y="574" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1E5E3B">машину» конструктивно не</text>
+    <text x="240" y="594" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1E5E3B">подпадает — права обычно не нужны</text>
+    <text x="240" y="630" text-anchor="middle" font-size="11.5" fill="#9A9890">кроме моделей с доп. сиденьем для оператора</text>
+  </g>
+
+  <!-- Leaf B: минитрактор -->
+  <g>
+    <rect x="500" y="428" width="440" height="230" rx="14" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>
+    <!-- icon: minitraktor -->
+    <g transform="translate(560,480)">
+      <rect x="0" y="10" width="100" height="48" rx="8" fill="#3C3C3C"/>
+      <rect x="14" y="-32" width="55" height="46" rx="6" fill="#3C3C3C"/>
+      <rect x="22" y="-22" width="38" height="26" rx="3" fill="#DCE7E1"/>
+      <circle cx="22" cy="62" r="22" fill="#232323"/>
+      <circle cx="22" cy="62" r="8" fill="#8C8C8C"/>
+      <circle cx="86" cy="62" r="22" fill="#232323"/>
+      <circle cx="86" cy="62" r="8" fill="#8C8C8C"/>
+      <!-- seat dot -->
+      <circle cx="40" cy="-6" r="7" fill="#B15A00"/>
+    </g>
+    <text x="790" y="470" text-anchor="middle" font-size="16.5" font-weight="800" fill="#8C4A00">Минитрактор</text>
+    <text x="790" y="496" text-anchor="middle" font-size="12.5" fill="#8C4A00">Есть сиденье или кабина —</text>
+    <text x="790" y="514" text-anchor="middle" font-size="12.5" fill="#8C4A00">оператор перемещается вместе с машиной</text>
+    <text x="720" y="554" text-anchor="middle" font-size="13.5" font-weight="700" fill="#8C2A1E">Самоходная машина — нужна</text>
+    <text x="720" y="574" text-anchor="middle" font-size="13.5" font-weight="700" fill="#8C2A1E">регистрация и удостоверение,</text>
+    <text x="720" y="594" text-anchor="middle" font-size="13.5" font-weight="700" fill="#8C2A1E">обычно категория B, иногда C</text>
+    <text x="720" y="630" text-anchor="middle" font-size="11.5" fill="#B37A3D">категория — по мощности, как у любой самоходной машины</text>
+  </g>
+
+  <defs>
+    <marker id="arrowC6" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#201F1C"/>
+    </marker>
+  </defs>
+
+  <rect x="70" y="700" width="860" height="90" rx="12" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="500" y="732" text-anchor="middle" font-size="13.5" fill="#686868">Прицеп к мотоблоку сам по себе оператора «на машину» не пересаживает — конструкция не меняется.</text>
+  <text x="500" y="756" text-anchor="middle" font-size="13.5" fill="#686868">Прямого пункта нормы про пограничные модификации (например, мотоблок с доп. сиденьем) не найдено — вывод по конструкции, не цитата.</text>
+</svg>

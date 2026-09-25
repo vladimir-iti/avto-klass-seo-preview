@@ -1,0 +1,93 @@
+<svg viewBox="0 0 1200 940" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема: порядок возврата удостоверения тракториста-машиниста после лишения права управления">
+  <rect width="1200" height="940" fill="#F7F7F5"/>
+
+  <text x="600" y="46" text-anchor="middle" font-size="28" font-weight="800" fill="#181818">Четыре условия — не по очереди, а одновременно</text>
+  <text x="600" y="74" text-anchor="middle" font-size="16" fill="#686868">Возврат удостоверения после лишения права управления (пункт 44 Правил допуска)</text>
+
+  <!-- 4 condition boxes -->
+  <g>
+    <rect x="60" y="108" width="255" height="150" rx="12" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+    <text x="80" y="136" font-size="13" font-weight="700" fill="#8C4A00">УСЛОВИЕ 1</text>
+    <text x="80" y="164" font-size="15" font-weight="700" fill="#201F1C">Срок лишения истёк</text>
+    <text x="80" y="190" font-size="12.5" fill="#686868">Раньше этого момента</text>
+    <text x="80" y="208" font-size="12.5" fill="#686868">возврат не начинается</text>
+    <text x="80" y="226" font-size="12.5" fill="#686868">в принципе</text>
+  </g>
+
+  <g>
+    <rect x="328" y="108" width="255" height="150" rx="12" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+    <text x="348" y="136" font-size="13" font-weight="700" fill="#8C4A00">УСЛОВИЕ 2</text>
+    <text x="348" y="164" font-size="15" font-weight="700" fill="#201F1C">Штрафы уплачены</text>
+    <text x="348" y="190" font-size="12.5" fill="#686868">Все штрафы за нарушения</text>
+    <text x="348" y="208" font-size="12.5" fill="#686868">в области дорожного</text>
+    <text x="348" y="226" font-size="12.5" fill="#686868">движения, не только по делу</text>
+  </g>
+
+  <g>
+    <rect x="596" y="108" width="255" height="150" rx="12" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+    <text x="616" y="136" font-size="13" font-weight="700" fill="#8C4A00">УСЛОВИЕ 3</text>
+    <text x="616" y="164" font-size="15" font-weight="700" fill="#201F1C">Проверено знание ПДД</text>
+    <text x="616" y="190" font-size="12.5" fill="#686868">Не ранее половины срока —</text>
+    <text x="616" y="208" font-size="12.5" fill="#686868">можно сдать заранее,</text>
+    <text x="616" y="226" font-size="12.5" fill="#686868">до конца срока</text>
+  </g>
+
+  <g>
+    <rect x="864" y="108" width="255" height="150" rx="12" fill="#FFFFFF" stroke="#201F1C" stroke-width="1.5"/>
+    <text x="884" y="136" font-size="13" font-weight="700" fill="#8C4A00">УСЛОВИЕ 4</text>
+    <text x="884" y="164" font-size="15" font-weight="700" fill="#201F1C">Обращение подано</text>
+    <text x="884" y="190" font-size="12.5" fill="#686868">По месту жительства</text>
+    <text x="884" y="208" font-size="12.5" fill="#686868">или пребывания,</text>
+    <text x="884" y="226" font-size="12.5" fill="#686868">в орган гостехнадзора</text>
+  </g>
+
+  <!-- converging lines -->
+  <path d="M 187 258 L 187 296 L 600 296 L 600 316" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+  <path d="M 455 258 L 455 296 L 600 296" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+  <path d="M 723 258 L 723 296 L 600 296" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+  <path d="M 991 258 L 991 296 L 600 296" fill="none" stroke="#C9C7C0" stroke-width="2.5"/>
+
+  <!-- gate: all four -->
+  <rect x="360" y="316" width="480" height="70" rx="12" fill="#181818"/>
+  <text x="600" y="358" text-anchor="middle" font-size="16.5" font-weight="700" fill="#F3F1EC">Все четыре условия выполнены</text>
+
+  <path d="M 600 386 L 600 418" stroke="#201F1C" stroke-width="2.5" marker-end="url(#arrowC4)"/>
+
+  <!-- branch question -->
+  <rect x="330" y="418" width="540" height="96" rx="12" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>
+  <text x="600" y="450" text-anchor="middle" font-size="14.5" font-weight="700" fill="#8C4A00">Лишение по ч. 1 / 4 ст. 12.8, ч. 1 ст. 12.26</text>
+  <text x="600" y="472" text-anchor="middle" font-size="14.5" font-weight="700" fill="#8C4A00">или ч. 3 ст. 12.27 КоАП (опьянение, отказ от</text>
+  <text x="600" y="494" text-anchor="middle" font-size="14.5" font-weight="700" fill="#8C4A00">освидетельствования, оставление места ДТП)?</text>
+
+  <text x="330" y="540" text-anchor="middle" font-size="14" font-weight="700" fill="#686868">нет</text>
+  <text x="870" y="540" text-anchor="middle" font-size="14" font-weight="700" fill="#B15A00">да</text>
+
+  <path d="M 600 514 L 600 560 L 460 560 L 460 592" fill="none" stroke="#C9C7C0" stroke-width="2.5" marker-end="url(#arrowC4)"/>
+  <path d="M 870 514 L 870 560 L 700 560 L 700 592" fill="none" stroke="#C9C7C0" stroke-width="2.5" marker-end="url(#arrowC4)"/>
+
+  <!-- extra requirement -->
+  <rect x="680" y="592" width="320" height="96" rx="12" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>
+  <text x="840" y="622" text-anchor="middle" font-size="13.5" font-weight="700" fill="#8C4A00">+ медицинское заключение,</text>
+  <text x="840" y="644" text-anchor="middle" font-size="13.5" font-weight="700" fill="#8C4A00">выданное уже ПОСЛЕ</text>
+  <text x="840" y="666" text-anchor="middle" font-size="13.5" font-weight="700" fill="#8C4A00">прекращения права — не старое</text>
+
+  <path d="M 840 688 L 840 720 L 680 720 L 680 750" fill="none" stroke="#C9C7C0" stroke-width="2.5" marker-end="url(#arrowC4)"/>
+
+  <!-- result -->
+  <rect x="260" y="592" width="320" height="96" rx="12" fill="#E9F4EE" stroke="#2E7D4F" stroke-width="2"/>
+  <text x="420" y="646" text-anchor="middle" font-size="17" font-weight="800" fill="#1E5E3B">Удостоверение возвращается</text>
+
+  <path d="M 680 750 L 420 750 L 420 688" fill="none" stroke="#C9C7C0" stroke-width="2.5" marker-end="url(#arrowC4)"/>
+
+  <defs>
+    <marker id="arrowC4" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#201F1C"/>
+    </marker>
+  </defs>
+
+  <!-- separate alternate track note -->
+  <rect x="80" y="806" width="1040" height="112" rx="12" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="110" y="838" font-size="14.5" font-weight="700" fill="#201F1C">Другой случай, отдельная процедура: прекращение права по медицинским основаниям (п. 44¹)</text>
+  <text x="110" y="864" font-size="13.5" fill="#686868">Когда право прекращено не судом, а из-за выявленных медицинских противопоказаний — короче: по месту жительства</text>
+  <text x="110" y="886" font-size="13.5" fill="#686868">(пребывания), по паспорту и медзаключению, выданному уже после прекращения права. Без штрафов и без проверки ПДД.</text>
+</svg>

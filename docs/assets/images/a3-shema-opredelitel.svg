@@ -1,0 +1,69 @@
+<svg viewBox="0 0 1200 1060" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема определения категории самоходной машины: три вопроса — мощность, тип хода, диапазон">
+  <rect width="1200" height="1060" fill="#F7F7F5"/>
+
+  <text x="600" y="48" text-anchor="middle" font-size="28" font-weight="800" fill="#181818">Как определить категорию по мощности и ходу</text>
+  <text x="600" y="76" text-anchor="middle" font-size="16" fill="#686868">Три вопроса подряд — по п. 4 Правил допуска (ПП № 796)</text>
+
+  <!-- Q1 -->
+  <rect x="430" y="108" width="340" height="68" rx="12" fill="#181818"/>
+  <text x="600" y="135" text-anchor="middle" font-size="15" fill="#B9B6AE" font-weight="700">ВОПРОС 1</text>
+  <text x="600" y="160" text-anchor="middle" font-size="17" fill="#F3F1EC" font-weight="600">Мощность двигателя ≤ 25,7 кВт?</text>
+
+  <text x="288" y="210" text-anchor="middle" font-size="15" fill="#2E7D4F" font-weight="700">ДА</text>
+  <text x="642" y="225" text-anchor="middle" font-size="15" fill="#B15A00" font-weight="700">НЕТ</text>
+
+  <path d="M 430 142 L 290 142 L 290 240" fill="none" stroke="#2E7D4F" stroke-width="3"/>
+  <path d="M 600 176 L 600 356" fill="none" stroke="#B15A00" stroke-width="3"/>
+
+  <!-- Category B result (left pod) -->
+  <rect x="120" y="240" width="340" height="96" rx="12" fill="#E9F4EE" stroke="#2E7D4F" stroke-width="2"/>
+  <text x="290" y="278" text-anchor="middle" font-size="26" font-weight="800" fill="#1E5E3B">Категория B</text>
+  <text x="290" y="302" text-anchor="middle" font-size="13.5" fill="#2E7D4F">гусеничный или колёсный ход —</text>
+  <text x="290" y="320" text-anchor="middle" font-size="13.5" fill="#2E7D4F">тип хода здесь неважен</text>
+
+  <!-- Q2 -->
+  <rect x="430" y="356" width="340" height="68" rx="12" fill="#181818"/>
+  <text x="600" y="383" text-anchor="middle" font-size="15" fill="#B9B6AE" font-weight="700">ВОПРОС 2</text>
+  <text x="600" y="408" text-anchor="middle" font-size="17" fill="#F3F1EC" font-weight="600">Тип хода — гусеничный или колёсный?</text>
+
+  <text x="288" y="458" text-anchor="middle" font-size="15" fill="#8C4A00" font-weight="700">гусеничный</text>
+  <text x="648" y="473" text-anchor="middle" font-size="15" fill="#B15A00" font-weight="700">колёсный</text>
+
+  <path d="M 430 390 L 290 390 L 290 488" fill="none" stroke="#8C4A00" stroke-width="3"/>
+  <path d="M 600 424 L 600 604" fill="none" stroke="#B15A00" stroke-width="3"/>
+
+  <!-- Category E result -->
+  <rect x="120" y="488" width="340" height="96" rx="12" fill="#FDF0E4" stroke="#8C4A00" stroke-width="2"/>
+  <text x="290" y="526" text-anchor="middle" font-size="26" font-weight="800" fill="#8C4A00">Категория E</text>
+  <text x="290" y="550" text-anchor="middle" font-size="13.5" fill="#8C4A00">свыше 25,7 кВт —</text>
+  <text x="290" y="568" text-anchor="middle" font-size="13.5" fill="#8C4A00">верхней границы у E нет</text>
+
+  <!-- Q3 -->
+  <rect x="430" y="604" width="340" height="68" rx="12" fill="#181818"/>
+  <text x="600" y="631" text-anchor="middle" font-size="15" fill="#B9B6AE" font-weight="700">ВОПРОС 3 (колёсная)</text>
+  <text x="600" y="656" text-anchor="middle" font-size="16.5" fill="#F3F1EC" font-weight="600">25,7–110,3 кВт или свыше?</text>
+
+  <text x="430" y="712" text-anchor="middle" font-size="14.5" fill="#B15A00" font-weight="700">25,7–110,3 кВт</text>
+  <text x="770" y="712" text-anchor="middle" font-size="14.5" fill="#C43B2B" font-weight="700">свыше 110,3 кВт</text>
+
+  <path d="M 530 672 L 530 700 L 430 700 L 430 736" fill="none" stroke="#B15A00" stroke-width="3"/>
+  <path d="M 670 672 L 670 700 L 770 700 L 770 736" fill="none" stroke="#C43B2B" stroke-width="3"/>
+
+  <!-- Category C -->
+  <rect x="270" y="736" width="320" height="96" rx="12" fill="#FDF0E4" stroke="#B15A00" stroke-width="2"/>
+  <text x="430" y="774" text-anchor="middle" font-size="26" font-weight="800" fill="#B15A00">Категория C</text>
+  <text x="430" y="800" text-anchor="middle" font-size="13.5" fill="#B15A00">колёсная, 25,7–110,3 кВт</text>
+
+  <!-- Category D -->
+  <rect x="610" y="736" width="320" height="96" rx="12" fill="#FBEAE7" stroke="#C43B2B" stroke-width="2"/>
+  <text x="770" y="774" text-anchor="middle" font-size="26" font-weight="800" fill="#8C2A1E">Категория D</text>
+  <text x="770" y="800" text-anchor="middle" font-size="13.5" fill="#8C2A1E">колёсная, свыше 110,3 кВт</text>
+
+  <!-- Footnote -->
+  <rect x="90" y="864" width="1020" height="150" rx="12" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
+  <text x="120" y="898" font-size="15" font-weight="700" fill="#201F1C">Где взять точную мощность</text>
+  <text x="120" y="924" font-size="14.5" fill="#686868">Значение в киловаттах — из паспорта самоходной машины, не из рекламных характеристик модели.</text>
+  <text x="120" y="948" font-size="14.5" fill="#686868">Перевод в лошадиные силы (1 кВт ≈ 1,36 л. с.) — только ориентир, не инструмент определения категории.</text>
+  <text x="120" y="980" font-size="14.5" fill="#8C2A1E" font-weight="600">Мощность ровно 25,7 кВт — текст норм пересекается на этой границе; решение уточняйте</text>
+  <text x="120" y="1002" font-size="14.5" fill="#8C2A1E" font-weight="600">непосредственно в органе гостехнадзора, а не самостоятельным толкованием.</text>
+</svg>

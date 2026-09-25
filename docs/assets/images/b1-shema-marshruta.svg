@@ -1,0 +1,66 @@
+<svg viewBox="0 0 1200 620" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема: шесть шагов получения прав тракториста и точки, где кандидата могут остановить">
+  <rect width="1200" height="620" fill="#F7F7F5"/>
+
+  <text x="600" y="48" text-anchor="middle" font-size="28" font-weight="800" fill="#181818">Маршрут получения прав тракториста</text>
+  <text x="600" y="76" text-anchor="middle" font-size="16" fill="#686868">Семь шагов по Правилам допуска (ПП № 796) — четыре точки, где могут не допустить</text>
+
+  <!-- path line -->
+  <line x1="90" y1="260" x2="1110" y2="260" stroke="#C9C7C0" stroke-width="4"/>
+
+  <!-- step positions: 0..6 -> x = 90 + i*170 -->
+  <!-- i=0 x=90, i=1 260, i=2 430, i=3 600, i=4 770, i=5 940, i=6 1110 -->
+
+  <!-- Step 0 -->
+  <circle cx="90" cy="260" r="26" fill="#181818"/>
+  <text x="90" y="268" text-anchor="middle" font-size="18" font-weight="800" fill="#F3F1EC">0</text>
+  <text x="90" y="310" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">Категория</text>
+  <text x="90" y="326" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">и возраст</text>
+
+  <!-- Step 1 -->
+  <circle cx="260" cy="260" r="26" fill="#C43B2B"/>
+  <text x="260" y="268" text-anchor="middle" font-size="18" font-weight="800" fill="#FFFFFF">1</text>
+  <text x="260" y="310" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">Медосвиде-</text>
+  <text x="260" y="326" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">тельствование</text>
+  <text x="260" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#C43B2B">⚑ ОТКАЗ</text>
+
+  <!-- Step 2 -->
+  <circle cx="430" cy="260" r="26" fill="#C43B2B"/>
+  <text x="430" y="268" text-anchor="middle" font-size="18" font-weight="800" fill="#FFFFFF">2</text>
+  <text x="430" y="310" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">Профессио-</text>
+  <text x="430" y="326" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">нальное обучение</text>
+  <text x="430" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#C43B2B">⚑ ОТКАЗ</text>
+
+  <!-- Step 3 -->
+  <circle cx="600" cy="260" r="26" fill="#C43B2B"/>
+  <text x="600" y="268" text-anchor="middle" font-size="18" font-weight="800" fill="#FFFFFF">3</text>
+  <text x="600" y="310" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">Заявление</text>
+  <text x="600" y="326" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">и документы</text>
+  <text x="600" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#C43B2B">⚑ ОТКАЗ</text>
+
+  <!-- Step 4 -->
+  <circle cx="770" cy="260" r="26" fill="#C43B2B"/>
+  <text x="770" y="268" text-anchor="middle" font-size="18" font-weight="800" fill="#FFFFFF">4</text>
+  <text x="770" y="310" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">Теоретические</text>
+  <text x="770" y="326" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">экзамены</text>
+  <text x="770" y="216" text-anchor="middle" font-size="12" font-weight="700" fill="#C43B2B">⚑ ОТКАЗ</text>
+
+  <!-- Step 5 -->
+  <circle cx="940" cy="260" r="26" fill="#FF6A00"/>
+  <text x="940" y="268" text-anchor="middle" font-size="18" font-weight="800" fill="#FFFFFF">5</text>
+  <text x="940" y="310" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">Практический</text>
+  <text x="940" y="326" text-anchor="middle" font-size="13" font-weight="700" fill="#201F1C">экзамен</text>
+
+  <!-- Step 6 -->
+  <circle cx="1110" cy="260" r="26" fill="#2E7D4F"/>
+  <text x="1110" y="268" text-anchor="middle" font-size="18" font-weight="800" fill="#FFFFFF">6</text>
+  <text x="1110" y="310" text-anchor="middle" font-size="13" font-weight="700" fill="#1E5E3B">Выдача</text>
+  <text x="1110" y="326" text-anchor="middle" font-size="13" font-weight="700" fill="#1E5E3B">удостоверения</text>
+
+  <!-- Legend -->
+  <rect x="200" y="410" width="800" height="150" rx="12" fill="#FFFFFF" stroke="#E5E5E1" stroke-width="1.5"/>
+  <text x="230" y="444" font-size="15" font-weight="700" fill="#201F1C">Шесть оснований для недопуска к экзамену (п. 15¹)</text>
+  <text x="230" y="472" font-size="14" fill="#686868">1. уже есть удостоверение на эту категорию · 2. лишён права управления ТС</text>
+  <text x="230" y="496" font-size="14" fill="#686868">3. медицинские противопоказания · 4. не представлены документы по п. 15</text>
+  <text x="230" y="520" font-size="14" fill="#686868">5. не уплачена госпошлина · 6. не достигнут возраст для категории</text>
+  <text x="230" y="546" font-size="13.5" fill="#8C2A1E" font-weight="600">Срок услуги гостехнадзора — не более 10 рабочих дней со дня регистрации заявления</text>
+</svg>

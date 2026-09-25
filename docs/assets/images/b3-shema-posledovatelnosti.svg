@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1200 640" xmlns="http://www.w3.org/2000/svg" font-family="'Manrope', -apple-system, 'Segoe UI', sans-serif" role="img" aria-label="Схема: порядок трёх экзаменов на права тракториста и барьеры между ними">
+  <rect width="1200" height="640" fill="#F7F7F5"/>
+
+  <text x="600" y="48" text-anchor="middle" font-size="28" font-weight="800" fill="#181818">Три экзамена строго по порядку</text>
+  <text x="600" y="76" text-anchor="middle" font-size="16" fill="#686868">Обе части теории — в любом порядке между собой, но раньше практики (ПП № 796)</text>
+
+  <!-- Row 1: two theory boxes -->
+  <rect x="110" y="120" width="430" height="110" rx="12" fill="#181818"/>
+  <text x="325" y="154" text-anchor="middle" font-size="14" font-weight="700" fill="#B9B6AE" letter-spacing="0.5">ЭКЗАМЕН 1</text>
+  <text x="325" y="182" text-anchor="middle" font-size="19" font-weight="800" fill="#F3F1EC">Теория: по эксплуатации</text>
+  <text x="325" y="207" text-anchor="middle" font-size="13" fill="#B9B6AE">безопасная эксплуатация машин (п. 29 «а»/«б»)</text>
+
+  <rect x="660" y="120" width="430" height="110" rx="12" fill="#181818"/>
+  <text x="875" y="154" text-anchor="middle" font-size="14" font-weight="700" fill="#B9B6AE" letter-spacing="0.5">ЭКЗАМЕН 2</text>
+  <text x="875" y="182" text-anchor="middle" font-size="19" font-weight="800" fill="#F3F1EC">Теория: по ПДД</text>
+  <text x="875" y="207" text-anchor="middle" font-size="13" fill="#B9B6AE">снимается при наличии российского ВУ (п. 29¹)</text>
+
+  <!-- validity pills -->
+  <rect x="225" y="244" width="200" height="34" rx="17" fill="#FDF0E4" stroke="#B15A00" stroke-width="1.5"/>
+  <text x="325" y="266" text-anchor="middle" font-size="13" font-weight="700" fill="#B15A00">оценка действует 3 месяца</text>
+
+  <rect x="775" y="244" width="200" height="34" rx="17" fill="#FDF0E4" stroke="#B15A00" stroke-width="1.5"/>
+  <text x="875" y="266" text-anchor="middle" font-size="13" font-weight="700" fill="#B15A00">оценка действует 3 месяца</text>
+
+  <!-- converging arrows to gate -->
+  <path d="M 325 278 L 325 330 L 560 330" fill="none" stroke="#C9C7C0" stroke-width="3"/>
+  <path d="M 875 278 L 875 330 L 640 330" fill="none" stroke="#C9C7C0" stroke-width="3"/>
+
+  <!-- gate -->
+  <rect x="450" y="304" width="300" height="66" rx="10" fill="#FBEAE7" stroke="#C43B2B" stroke-width="2"/>
+  <text x="600" y="330" text-anchor="middle" font-size="13.5" font-weight="700" fill="#8C2A1E">БАРЬЕР — обе части сданы</text>
+  <text x="600" y="350" text-anchor="middle" font-size="12.5" fill="#8C2A1E">без этого к практике не допускают (п. 19)</text>
+
+  <path d="M 600 370 L 600 402" stroke="#201F1C" stroke-width="3" marker-end="url(#arrowB3)"/>
+
+  <!-- Row 2: practice container -->
+  <rect x="110" y="402" width="980" height="190" rx="14" fill="#FFFFFF" stroke="#201F1C" stroke-width="2"/>
+  <text x="140" y="432" font-size="14" font-weight="700" fill="#201F1C" letter-spacing="0.5">ЭКЗАМЕН 3 — ПРАКТИКА, ДВА ЭТАПА ПОДРЯД</text>
+
+  <rect x="140" y="450" width="410" height="112" rx="10" fill="#FF6A00"/>
+  <text x="345" y="480" text-anchor="middle" font-size="14" font-weight="700" fill="#FFF3E8">ЭТАП 1</text>
+  <text x="345" y="506" text-anchor="middle" font-size="17" font-weight="800" fill="#FFFFFF">Площадка / трактородром</text>
+  <text x="345" y="530" text-anchor="middle" font-size="12.5" fill="#FFF3E8">манёвры (п. 23)</text>
+
+  <path d="M 550 506 L 618 506" stroke="#8C2A1E" stroke-width="3" marker-end="url(#arrowRedB3)"/>
+  <text x="584" y="472" text-anchor="middle" font-size="11" font-weight="700" fill="#8C2A1E">барьер:</text>
+  <text x="584" y="546" text-anchor="middle" font-size="11" font-weight="700" fill="#8C2A1E">этап 1 сдан</text>
+
+  <rect x="620" y="450" width="410" height="112" rx="10" fill="#181818"/>
+  <text x="825" y="480" text-anchor="middle" font-size="14" font-weight="700" fill="#B9B6AE">ЭТАП 2</text>
+  <text x="825" y="506" text-anchor="middle" font-size="17" font-weight="800" fill="#F3F1EC">Маршрут, реальные условия</text>
+  <text x="825" y="530" text-anchor="middle" font-size="12.5" fill="#B9B6AE">оценка ситуации в движении (п. 23)</text>
+
+  <defs>
+    <marker id="arrowB3" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#201F1C"/>
+    </marker>
+    <marker id="arrowRedB3" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#8C2A1E"/>
+    </marker>
+  </defs>
+
+  <text x="600" y="618" text-anchor="middle" font-size="13.5" fill="#686868">Пропустить звено нельзя ни на одном шаге — порядок задан Правилами допуска (ПП № 796), не практикой конкретной комиссии</text>
+</svg>
